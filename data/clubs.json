@@ -21,7 +21,7 @@
     "logo": "images/1/aston_villa_women.png",
     "address": "Bescot Stadium, Birmingham, UK",
     "email": "info@avfcw.com",
-    "social_link": "https://instagram.com/avfcwomen"
+    "social_link": "https://www.instagram.com/avwfcofficial"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "logo": "images/1/brighton_women.png",
     "address": "Broadfield Stadium, Brighton, UK",
     "email": "info@brightonwfc.com",
-    "social_link": "https://instagram.com/bhawfc"
+    "social_link": "https://www.instagram.com/bhafcwomen/"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "logo": "images/1/chelsea_women.png",
     "address": "Kingsmeadow, London, UK",
     "email": "info@chelseawfc.com",
-    "social_link": "https://instagram.com/chelseawfc"
+    "social_link": "https://www.instagram.com/chelseafcw"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "logo": "images/1/everton_women.png",
     "address": "Walton Hall Park, Liverpool, UK",
     "email": "info@evertonwfc.com",
-    "social_link": "https://instagram.com/evertonwomen"
+    "social_link": "https://www.instagram.com/evertonwomen"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "logo": "images/1/leicester_women.png",
     "address": "King Power Stadium, Leicester, UK",
     "email": "info@lcfcw.com",
-    "social_link": "https://instagram.com/lcfcwomen"
+    "social_link": "https://www.instagram.com/lcfcwomen"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "logo": "images/1/liverpool_women.png",
     "address": "Prenton Park, Liverpool, UK",
     "email": "info@liverpoolwfc.com",
-    "social_link": "https://instagram.com/liverpoolfcw"
+    "social_link": "https://www.instagram.com/liverpoolfcw"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "logo": "images/1/london_city_lionesses.png",
     "address": "Princes Park, London, UK",
     "email": "info@londoncitylionesses.com",
-    "social_link": "https://instagram.com/londoncitylionesses"
+    "social_link": "https://www.instagram.com/londoncitylionesses"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "logo": "images/1/man_city_women.png",
     "address": "Academy Stadium, Manchester, UK",
     "email": "info@mancitywfc.com",
-    "social_link": "https://instagram.com/mancitywfc"
+    "social_link": "https://www.instagram.com/mancitywomen"
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "logo": "images/1/man_united_women.png",
     "address": "Leigh Sports Village, Manchester, UK",
     "email": "info@manutdwfc.com",
-    "social_link": "https://instagram.com/manutdwomen"
+    "social_link": "https://www.instagram.com/manutdwomen"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "logo": "images/1/tottenham_women.png",
     "address": "The Hive Stadium, London, UK",
     "email": "info@tottenhamwfc.com",
-    "social_link": "https://instagram.com/spurswomen"
+    "social_link": "https://www.instagram.com/spurswomen"
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
     "logo": "images/2/bristol_city_women.png",
     "address": "Ashton Gate, Bristol, UK",
     "email": "info@bristolcitywfc.com",
-    "social_link": "https://instagram.com/bristolcitywfc"
+    "social_link": "https://www.instagram.com/bristolcitywomensfc"
   },
   {
     "id": 15,
@@ -189,7 +189,7 @@
     "logo": "images/2/crystal_palace_women.png",
     "address": "Hayes Lane, London, UK",
     "email": "info@cpfcwomen.com",
-    "social_link": "https://instagram.com/cpfcwomen"
+    "social_link": "https://www.instagram.com/cpfc_w"
   },
   {
     "id": 17,
@@ -213,7 +213,7 @@
     "logo": "images/2/ipswich_town_women.png",
     "address": "Portman Road, Ipswich, UK",
     "email": "info@ipswichtownwfc.com",
-    "social_link": "https://instagram.com/ipswichtownwfc"
+    "social_link": "https://www.instagram.com/itfcwomen"
   },
   {
     "id": 19,
@@ -225,7 +225,7 @@
     "logo": "images/2/newcastle_united_women.png",
     "address": "St James' Park, Newcastle, UK",
     "email": "info@newcastleunitedwfc.com",
-    "social_link": "https://instagram.com/newcastleunitedwfc"
+    "social_link": "https://www.instagram.com/newcastleunitedwomen"
   },
   {
     "id": 20,
@@ -237,7 +237,7 @@
     "logo": "images/2/nottingham_forest_women.png",
     "address": "City Ground, Nottingham, UK",
     "email": "info@nottinghamforestwfc.com",
-    "social_link": "https://instagram.com/nottinghamforestwfc"
+    "social_link": "https://www.instagram.com/nffcwomen"
   },
   {
     "id": 21,
@@ -249,7 +249,7 @@
     "logo": "images/2/portsmouth_women.png",
     "address": "Fratton Park, Portsmouth, UK",
     "email": "info@pompeyfc.co.uk",
-    "social_link": "https://instagram.com/portsmouthfcw"
+    "social_link": "https://www.instagram.com/pompeywomen"
   },
   {
     "id": 22,
@@ -261,7 +261,7 @@
     "logo": "images/2/sheffield_united_women.png",
     "address": "Bramall Lane, Sheffield, UK",
     "email": "info@sufcwomen.com",
-    "social_link": "https://instagram.com/sufcwomen"
+    "social_link": "https://www.instagram.com/sufc_women"
   },
   {
     "id": 23,
@@ -273,7 +273,7 @@
     "logo": "images/2/southampton_women.png",
     "address": "St Mary's Stadium, Southampton, UK",
     "email": "info@southamptonfcw.com",
-    "social_link": "https://instagram.com/southamptonfcw"
+    "social_link": "https://www.instagram.com/saintsfcwomen"
   },
   {
     "id": 24,
@@ -285,7 +285,7 @@
     "logo": "images/2/sunderland_afc_women.png",
     "address": "Stadium of Light, Sunderland, UK",
     "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
+    "social_link": "https://www.instagram.com/safcwomen"
   },
   {
     "id": 25,
@@ -297,7 +297,7 @@
     "logo": "images/3/burnley_women.png",
     "address": "Turf Moor, Burnley, UK",
     "email": "enquiries@burnleyfc.com",
-    "social_link": "https://instagram.com/burnleyfcwomen"
+    "social_link": "https://www.instagram.com/burnleyfcwomen"
   },
   {
     "id": 26,
@@ -309,7 +309,7 @@
     "logo": "images/3/derby_county_women.png",
     "address": "Pride Park Stadium, Derby, UK",
     "email": "enquiries@dcfc.co.uk",
-    "social_link": "https://instagram.com/derbycountywomen"
+    "social_link": "https://www.instagram.com/derbycountyfcwomen"
   },
   {
     "id": 27,
@@ -333,114 +333,6 @@
     "logo": "images/3/hull_city_women.png",
     "address": "Versa Sportswear Stadium, East Yorkshire,, UK",
     "email": "enquiries@hullcityafc.com",
-    "social_link": "https://instagram.com/hullcityafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
-    "league": "Women's Super League 2",
-    "age_group": "Senior",
-    "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
-    "social_link": "https://instagram.com/sunderlandafcw"
+    "social_link": "https://www.instagram.com/hullcityladiesfc"
   }
 ]
