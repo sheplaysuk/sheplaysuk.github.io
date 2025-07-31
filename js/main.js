@@ -7,6 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let allAgeGroups = [];
   let allSports = [];
 
+  // Pagination variables
+  let currentPage = 1;
+  const pageSize = 20;
+  let lastClubsFiltered = [];
+
   // Fetch and store all data
   fetch('data/leagues.json')
     .then(response => response.json())
@@ -28,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       allClubs = clubs;
       allAgeGroups = [...new Set(clubs.map(club => club.age_group).filter(Boolean))];
       populateAgeGroupFilter(allAgeGroups);
+      lastClubsFiltered = clubs;
       renderClubs(clubs);
     });
 
@@ -38,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const sportsTabs = document.getElementById('sportTabs');
       if (sportsTabs) {
         sportsTabs.innerHTML = '';
-      
+
         sports.forEach(sport => {
           const tab = document.createElement('button');
           tab.className = 'sport-tab';
@@ -47,6 +53,18 @@ document.addEventListener('DOMContentLoaded', () => {
           sportsTabs.appendChild(tab);
         });
 
+      let defaultTab = Array.from(sportsTabs.children).find(tab => tab.dataset.sport === "Football");
+      if (defaultTab) {
+        defaultTab.classList.add('active');
+        updateFiltersForSport("Football");
+        filterAndRenderClubs("Football");
+      } else {
+        // Fallback to "All Sports" if Football not found
+        allTab.classList.add('active');
+        updateFiltersForSport('');
+        filterAndRenderClubs('');
+      }
+
         // Tab click event
         sportsTabs.addEventListener('click', (e) => {
           if (e.target.classList.contains('sport-tab')) {
@@ -54,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.target.classList.add('active');
             const selectedSport = e.target.dataset.sport;
             updateFiltersForSport(selectedSport);
+            currentPage = 1;
             filterAndRenderClubs(selectedSport);
           }
         });
@@ -122,6 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
              (!ageGroup || club.age_group === ageGroup);
     });
 
+    lastClubsFiltered = filtered;
+    currentPage = 1;
     renderClubs(filtered);
   }
 
@@ -153,14 +174,23 @@ document.addEventListener('DOMContentLoaded', () => {
       return matchesSearch && matchesSport && matchesLeague && matchesLocation && matchesAgeGroup;
     });
 
+    lastClubsFiltered = filtered;
+    currentPage = 1;
     renderClubs(filtered);
   });
 
-  // Function to render clubs
+  // Function to render clubs with pagination
   function renderClubs(clubs) {
     const clubList = document.getElementById('clubResults');
     clubList.innerHTML = '';
-    clubs.forEach(club => {
+
+    // Pagination logic
+    const totalPages = Math.ceil(clubs.length / pageSize);
+    const start = (currentPage - 1) * pageSize;
+    const end = start + pageSize;
+    const clubsToShow = clubs.slice(start, end);
+
+    clubsToShow.forEach(club => {
       const li = document.createElement('li');
       li.dataset.name = club.name;
       li.dataset.location = club.location;
@@ -184,6 +214,54 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
       clubList.appendChild(li);
     });
+
+    renderPagination(totalPages);
+  }
+
+  // Pagination controls
+  function renderPagination(totalPages) {
+    let pagination = document.getElementById('pagination');
+    if (!pagination) {
+      pagination = document.createElement('div');
+      pagination.id = 'pagination';
+      pagination.style.textAlign = 'center';
+      pagination.style.margin = '20px 0';
+      clubList.parentNode.appendChild(pagination);
+    }
+    pagination.innerHTML = '';
+
+    if (totalPages <= 1) return;
+
+    if (currentPage > 1) {
+      const prevBtn = document.createElement('button');
+      prevBtn.textContent = 'Prev';
+      prevBtn.onclick = () => {
+        currentPage--;
+        renderClubs(lastClubsFiltered);
+      };
+      pagination.appendChild(prevBtn);
+    }
+
+    for (let i = 1; i <= totalPages; i++) {
+      const pageBtn = document.createElement('button');
+      pageBtn.textContent = i;
+      if (i === currentPage) pageBtn.disabled = true;
+      pageBtn.onclick = () => {
+        currentPage = i;
+        renderClubs(lastClubsFiltered);
+      };
+      pagination.appendChild(pageBtn);
+    }
+
+    if (currentPage < totalPages) {
+      const nextBtn = document.createElement('button');
+      nextBtn.textContent = 'Next';
+      nextBtn.onclick = () => {
+        currentPage++;
+        renderClubs(lastClubsFiltered);
+      };
+      pagination.appendChild(nextBtn);
+    }
   }
 
   // Modal functionality

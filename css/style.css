@@ -68,7 +68,7 @@ main {
 
 .club-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   list-style: none;
   padding: 0;
@@ -80,6 +80,12 @@ main {
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .club-list li:hover {
@@ -134,14 +140,17 @@ main {
   display: flex;
   gap: 32px;
   margin-top: 24px;
+  flex-wrap: wrap;
 }
 
 .sidebar {
-   width: 250px;
-  background: #C9C1FF;
-  padding: 1rem;
+  width: 260px;
+  min-width: 200px;
+  background: #f7f7f7;
+  padding: 24px 16px;
   border-radius: 8px;
-  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  height: fit-content;
 }
 
 main {
@@ -150,6 +159,7 @@ main {
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid var(--border);
+  min-width: 280px;
 }
 
 .container { display: flex; gap: 2rem; }
@@ -160,7 +170,7 @@ main {
   display: flex;
   border-bottom: 2px solid #1b2864;
   margin-bottom: 20px;
-  margin-top: 12%;
+  margin-top: 10%;
 }
 
 /* Style each sport tab button */
@@ -174,6 +184,7 @@ main {
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border-radius: 8px 8px 0 0;
 }
 
 .sport-tab:hover {
@@ -188,12 +199,14 @@ main {
 }
 
 #searchForm {
-    flex: 1;
+    display: flex;
     background: #C9C1FF;
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid var(--border);
+    flex-wrap: wrap;
 }
+
 
 /* Style the search input */
 #searchForm input[type="text"],
@@ -203,6 +216,7 @@ main {
   border-radius: 4px;
   font-size: 1rem;
   margin-bottom: 0;
+  margin-right: 1rem;
 }
 
 /* Style the search button */
@@ -219,6 +233,59 @@ main {
 }
 
 #searchForm button:hover {
+  background-color: #a79bf0;
+  color: #1b2864;
+}
+
+/* Responsive: adjust layout for tablets and phones */
+@media (max-width: 1200px) {
+  .club-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .content-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .sidebar {
+    width: 100%;
+    min-width: unset;
+    margin-bottom: 16px;
+  }
+  main {
+    min-width: unset;
+  }
+  .club-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .club-list {
+    grid-template-columns: 1fr;
+  }
+  #searchForm input[type="text"] {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* Style the search button */
+#filterSearchBtn {
+  height: 40px;
+  padding: 0 20px;
+  background-color: #1b2864;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#filterSearchBtn:hover {
   background-color: #a79bf0;
   color: #1b2864;
 }
