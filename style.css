@@ -1,0 +1,291 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background: url("../images/1-bg.png");
+  margin: 0;
+  padding: 1rem;
+  color: #111827;
+}
+
+h1 { 
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  font-weight: '900';
+  font-size: 70px;
+}
+
+h2 {
+  margin: 0 0 .75rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sidebar select,
+.sidebar input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+main {
+    width: 70%;
+}
+
+.club-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.club-list li {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.club-list li:hover {
+    transform: scale(1.02);
+}
+
+.club-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* Modal styles */
+    .modal {
+      position: fixed;
+      z-index: 9999;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.5);
+      display: none;
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      position: relative;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 10px; right: 15px;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ...existing code... */
+.content-container {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 260px;
+  min-width: 200px;
+  background: #f7f7f7;
+  padding: 24px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  height: fit-content;
+}
+
+main {
+  flex: 1;
+  background: #C9C1FF;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  min-width: 280px;
+}
+
+.container { display: flex; gap: 2rem; }
+@media (max-width: 900px) { .container { flex-direction: column; } }
+
+/* Style the sports tabs container */
+#sportTabs {
+  display: flex;
+  border-bottom: 2px solid #1b2864;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+
+/* Style each sport tab button */
+.sport-tab {
+  background-color: #a79bf0;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #1b2864;
+  border: 2px solid transparent;
+  border-bottom: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px 8px 0 0;
+}
+
+.sport-tab:hover {
+  background-color: #C9C1FF;
+}
+
+.sport-tab.active {
+  background-color: #C9C1FF;
+  border-color: #C9C1FF;
+  color: #1b2864;
+  border-bottom: 2px solid 1b2864;
+}
+
+#searchForm {
+    display: flex;
+    background: #C9C1FF;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    flex-wrap: wrap;
+}
+
+
+/* Style the search input */
+#searchForm input[type="text"],
+.searchLabel {
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+
+/* Style the search button */
+#searchForm button {
+  height: 40px;
+  padding: 0 20px;
+  background-color: #1b2864;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#searchForm button:hover {
+  background-color: #a79bf0;
+  color: #1b2864;
+}
+
+/* Responsive: adjust layout for tablets and phones */
+@media (max-width: 1200px) {
+  .club-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .content-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .sidebar {
+    width: 100%;
+    min-width: unset;
+    margin-bottom: 16px;
+  }
+  main {
+    min-width: unset;
+  }
+  .club-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .club-list {
+    grid-template-columns: 1fr;
+  }
+  #searchForm input[type="text"] {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* Style the search button */
+#filterSearchBtn {
+  height: 40px;
+  padding: 0 20px;
+  background-color: #1b2864;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#filterSearchBtn:hover {
+  background-color: #a79bf0;
+  color: #1b2864;
+}

@@ -2,48 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>She Plays UK</title>
+  <title>She Plays</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+  </header>
 
-  <div class="tabs">
-    <div id="sportTabs"></div>
-  </div>
+  <nav aria-label="Sports">
+    <div class="tabs">
+      <div id="sportTabs" role="tablist" aria-label="Sport Tabs"></div>
+    </div>
+  </nav>
 
-  <form id="searchForm">
-    <label for="search" class="searchLabel"><h2>Search Clubs</h2></label>
-    <input type="text" id="search" class="searchLabel" placeholder="Search clubs...">
-    <button type="submit">Search</button>
+  <form id="searchForm" role="search" aria-label="Search Clubs">
+    <input type="text" id="search" class="searchLabel" placeholder="Search clubs by name or location..." aria-label="Search clubs by name or location">
+    <button type="submit" aria-label="Search">Search</button>
   </form>
 
   <div class="content-container">
-    <aside class="sidebar">
+    <aside class="sidebar" aria-label="Filters">
       <h2>Filters</h2>
       <label for="leagueFilter">League</label>
-      <select id="leagueFilter"></select>
+      <select id="leagueFilter" aria-label="League"></select>
 
       <label for="locationFilter">Location</label>
-      <select id="locationFilter"></select>
+      <select id="locationFilter" aria-label="Location"></select>
 
       <label for="ageGroupFilter">Age Group</label>
-      <select id="ageGroupFilter"></select>
+      <select id="ageGroupFilter" aria-label="Age Group"></select>
 
-      <button id="filterSearchBtn" type="button">Search</button>
+      <button id="filterSearchBtn" type="button" aria-label="Apply Filters">Search</button>
     </aside>
 
     <main>
-      <section>
-        <h2>Clubs</h2>
-        <ul id="clubResults" class="club-list"></ul>
+      <section aria-label="Club Results">
+        <ul id="clubResults" class="club-list" aria-live="polite"></ul>
+        <!-- Pagination will be injected here -->
       </section>
     </main>
   </div>
 
-  <div id="clubModal" class="modal">
+  <div id="clubModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
     <div class="modal-content">
-      <span id="modalClose" class="modal-close">&times;</span>
+      <button id="modalClose" class="modal-close" aria-label="Close">&times;</button>
       <div id="modalBody"></div>
     </div>
   </div>
