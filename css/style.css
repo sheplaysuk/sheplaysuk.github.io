@@ -185,6 +185,7 @@ main {
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 8px 8px 0 0;
+  display: flex;
 }
 
 .sport-tab:hover {
