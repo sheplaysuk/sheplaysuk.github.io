@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>She Plays UK</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="tabs">
+    <div id="sportTabs"></div>
+  </div>
+
+  <form id="searchForm">
+    <label for="search" class="searchLabel"><h2>Search Clubs</h2></label>
+    <input type="text" id="search" class="searchLabel" placeholder="Search clubs...">
+    <button type="submit">Search</button>
+  </form>
+
+  <div class="content-container">
+    <aside class="sidebar">
+      <h2>Filters</h2>
+      <label for="leagueFilter">League</label>
+      <select id="leagueFilter"></select>
+
+      <label for="locationFilter">Location</label>
+      <select id="locationFilter"></select>
+
+      <label for="ageGroupFilter">Age Group</label>
+      <select id="ageGroupFilter"></select>
+
+      <button id="filterSearchBtn" type="button">Search</button>
+    </aside>
+
+    <main>
+      <section>
+        <h2>Clubs</h2>
+        <ul id="clubResults" class="club-list"></ul>
+      </section>
+    </main>
+  </div>
+
+  <div id="clubModal" class="modal">
+    <div class="modal-content">
+      <span id="modalClose" class="modal-close">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

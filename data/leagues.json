@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Premier League"
+  },
+  {
+    "id": 2,
+    "name": "Championship"
+  },
+  {
+    "id": 3,
+    "name": "League One"
+  },
+  {
+    "id": 4,
+    "name": "League Two"
+  },
+  {
+    "id": 5,
+    "name": "National League"
+  }
+]

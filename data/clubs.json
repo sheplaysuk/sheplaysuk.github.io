@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "sport": "Football",
+    "name": "Arsenal",
+    "location": "London",
+    "league": "Premier League",
+    "age_group": "Senior",
+    "logo": "images/1/Arsenal_FC.png",
+    "address": "",
+    "email": "",
+    "social_link": ""
+  },
+  {
+    "id": 2,
+    "sport": "Football",
+    "name": "Blue Sharks",
+    "location": "Manchester",
+    "league": "Championship",
+    "age_group": "U16",
+    "logo": "images/blue_sharks_logo.png",
+    "address": "456 Shark Avenue, Manchester, UK",
+    "email": "info@bluesharks.com",
+    "social_link": "https://instagram.com/bluesharks"
+  },
+  {
+    "id": 3,
+    "sport": "Football",
+    "name": "Green Eagles",
+    "location": "Birmingham",
+    "league": "League One",
+    "age_group": "U14",
+    "logo": "images/green_eagles_logo.png",
+    "address": "789 Eagle Road, Birmingham, UK",
+    "email": "hello@greeneagles.com",
+    "social_link": "https://instagram.com/greeneagles"
+  },
+  {
+    "id": 4,
+    "sport": "Football",
+    "name": "Yellow Tigers",
+    "location": "Liverpool",
+    "league": "League Two",
+    "age_group": "U12",
+    "logo": "images/yellow_tigers_logo.png",
+    "address": "321 Tiger Lane, Liverpool, UK",
+    "email": "support@yellotigers.com",
+    "social_link": "https://instagram.com/yellowtigers"
+  },
+  {
+    "id": 5,
+    "sport": "Football",
+    "name": "Purple Panthers",
+    "location": "Leeds",
+    "league": "National League",
+    "age_group": "U10",
+    "logo": "images/purple_panthers_logo.png",
+    "address": "654 Panther Street, Leeds, UK",
+    "email": "contact@purplepanthers.com",
+    "social_link": "https://instagram.com/purplepanthers"
+  }
+]
