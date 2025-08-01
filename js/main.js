@@ -290,8 +290,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <p><strong>League:</strong> ${league}</p>
             <p><strong>Age Group:</strong> ${ageGroup}</p>
             <p><strong>Stadium:</strong> ${stadium}</p>
-            <p><strong>Website:</strong> ${website}</p>
-            <p><strong>Instagram:</strong> <a href="${socialLink}">${name}</a></p>
+            <p><strong>Website:</strong> <a href="${website}">${name}</a></p>
+            <p><strong>Instagram:</strong> <a href="${socialLink}"><img src="images/insta-logo.png" alt="Instagram" class="social-logo"></a></p>
           </div>
         </div>
       `;

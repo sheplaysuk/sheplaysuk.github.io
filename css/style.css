@@ -269,6 +269,14 @@ main {
   color: #fff;
 }
 
+.social-logo {
+  width: 100%;
+  max-width: 24px;
+  height: auto;
+  align-content: center;
+  display: block;
+}
+
 /* Responsive: adjust layout for tablets and phones */
 @media (max-width: 1200px) {
   .club-list {
@@ -304,6 +312,12 @@ main {
   .modal .logo {
     max-width: 90px;
   }
+  .social-logo {
+  width: 100%;
+  max-width: 19px;
+  height: auto;
+  display: block;
+}
 }
 
 @media (max-width: 500px) {
@@ -333,6 +347,12 @@ main {
   main {
     min-width: unset;
   }
+  .social-logo {
+  width: 100%;
+  max-width: 8px;
+  height: auto;
+  display: block;
+}
 }
 
 /* Style the search button */
