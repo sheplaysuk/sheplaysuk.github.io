@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modalBody.innerHTML = `
         <h2>${name}</h2>
         <div style="display: flex; gap: 20px; align-items: flex-start; margin-top: 10px;">
-          ${logo ? `<img src="${logo}" alt="${name} logo" style="width: 190px; height: auto; border-radius: 6px;">` : ''}
+          ${logo ? `<img src="${logo}" alt="${name} logo">` : ''}
           <div>
             <p><strong>Location:</strong> ${location}</p>
             <p><strong>League:</strong> ${league}</p>
