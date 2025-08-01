@@ -158,6 +158,16 @@ main {
     cursor: pointer;
 }
 
+.modal-logo {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
 /* ...existing code... */
 .content-container {
   display: flex;
@@ -307,7 +317,7 @@ main {
     font-size: 40px;
   }
   .subheader {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .modal .logo {
     max-width: 90px;
@@ -317,6 +327,10 @@ main {
   max-width: 24px;
   height: auto;
   display: block;
+}
+.modal-logo {
+  width: 100%;
+  max-width: 100px;
 }
 }
 
@@ -335,7 +349,7 @@ main {
     font-size: 28px;
   }
   .subheader {
-    font-size: 0.5rem;
+    font-size: 0.95rem;
   }
   .modal-content {
     width: 90%;
@@ -352,6 +366,10 @@ main {
   max-width: 24px;
   height: auto;
   display: block;
+}
+.modal-logo {
+  width: 100%;
+  max-width: 50px;
 }
 }
 
