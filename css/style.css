@@ -301,7 +301,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
   .logo {
-    max-width: 140px;
+    max-width: 100px;
   }
   h1 {
     font-size: 40px;
@@ -314,7 +314,7 @@ main {
   }
   .social-logo {
   width: 100%;
-  max-width: 19px;
+  max-width: 24px;
   height: auto;
   display: block;
 }
@@ -329,7 +329,7 @@ main {
     min-width: 0;
   }
   .logo {
-    max-width: 100px;
+    max-width: 60px;
   }
   h1 {
     font-size: 28px;
@@ -349,7 +349,7 @@ main {
   }
   .social-logo {
   width: 100%;
-  max-width: 8px;
+  max-width: 24px;
   height: auto;
   display: block;
 }
