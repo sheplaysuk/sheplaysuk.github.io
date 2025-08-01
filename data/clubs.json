@@ -8,7 +8,7 @@
     "age_group": "Senior",
     "logo": "images/1/arsenal_women.png",
     "address": "Emirates Stadium, London, UK",
-    "email": "info@arsenalwfc.com",
+    "website": "info@arsenalwfc.com",
     "social_link": "https://instagram.com/arsenalwfc"
   },
   {
@@ -20,7 +20,7 @@
     "age_group": "Senior",
     "logo": "images/1/aston_villa_women.png",
     "address": "Bescot Stadium, Birmingham, UK",
-    "email": "info@avfcw.com",
+    "website": "info@avfcw.com",
     "social_link": "https://www.instagram.com/avwfcofficial"
   },
   {
@@ -32,7 +32,7 @@
     "age_group": "Senior",
     "logo": "images/1/brighton_women.png",
     "address": "Broadfield Stadium, Brighton, UK",
-    "email": "info@brightonwfc.com",
+    "website": "info@brightonwfc.com",
     "social_link": "https://www.instagram.com/bhafcwomen/"
   },
   {
@@ -44,7 +44,7 @@
     "age_group": "Senior",
     "logo": "images/1/chelsea_women.png",
     "address": "Kingsmeadow, London, UK",
-    "email": "info@chelseawfc.com",
+    "website": "info@chelseawfc.com",
     "social_link": "https://www.instagram.com/chelseafcw"
   },
   {
@@ -56,7 +56,7 @@
     "age_group": "Senior",
     "logo": "images/1/everton_women.png",
     "address": "Walton Hall Park, Liverpool, UK",
-    "email": "info@evertonwfc.com",
+    "website": "info@evertonwfc.com",
     "social_link": "https://www.instagram.com/evertonwomen"
   },
   {
@@ -68,7 +68,7 @@
     "age_group": "Senior",
     "logo": "images/1/leicester_women.png",
     "address": "King Power Stadium, Leicester, UK",
-    "email": "info@lcfcw.com",
+    "website": "info@lcfcw.com",
     "social_link": "https://www.instagram.com/lcfcwomen"
   },
   {
@@ -80,7 +80,7 @@
     "age_group": "Senior",
     "logo": "images/1/liverpool_women.png",
     "address": "Prenton Park, Liverpool, UK",
-    "email": "info@liverpoolwfc.com",
+    "website": "info@liverpoolwfc.com",
     "social_link": "https://www.instagram.com/liverpoolfcw"
   },
   {
@@ -92,7 +92,7 @@
     "age_group": "Senior",
     "logo": "images/1/london_city_lionesses.png",
     "address": "Princes Park, London, UK",
-    "email": "info@londoncitylionesses.com",
+    "website": "info@londoncitylionesses.com",
     "social_link": "https://www.instagram.com/londoncitylionesses"
   },
   {
@@ -104,7 +104,7 @@
     "age_group": "Senior",
     "logo": "images/1/man_city_women.png",
     "address": "Academy Stadium, Manchester, UK",
-    "email": "info@mancitywfc.com",
+    "website": "info@mancitywfc.com",
     "social_link": "https://www.instagram.com/mancitywomen"
   },
   {
@@ -116,7 +116,7 @@
     "age_group": "Senior",
     "logo": "images/1/man_united_women.png",
     "address": "Leigh Sports Village, Manchester, UK",
-    "email": "info@manutdwfc.com",
+    "website": "info@manutdwfc.com",
     "social_link": "https://www.instagram.com/manutdwomen"
   },
   {
@@ -128,7 +128,7 @@
     "age_group": "Senior",
     "logo": "images/1/tottenham_women.png",
     "address": "The Hive Stadium, London, UK",
-    "email": "info@tottenhamwfc.com",
+    "website": "info@tottenhamwfc.com",
     "social_link": "https://www.instagram.com/spurswomen"
   },
   {
@@ -140,7 +140,7 @@
     "age_group": "Senior",
     "logo": "images/1/west_ham_women.png",
     "address": "Chigwell Construction Stadium, London, UK",
-    "email": "info@westhamwfc.com",
+    "website": "info@westhamwfc.com",
     "social_link": "https://instagram.com/westhamwomen"
   },  
   {
@@ -152,7 +152,7 @@
     "age_group": "Senior",
     "logo": "images/2/birmingham_city_women.png",
     "address": "St Andrew's, Birmingham, UK",
-    "email": "info@bcfcwomen.com",
+    "website": "info@bcfcwomen.com",
     "social_link": "https://instagram.com/bcfcwomen"
   },
   {
@@ -164,7 +164,7 @@
     "age_group": "Senior",
     "logo": "images/2/bristol_city_women.png",
     "address": "Ashton Gate, Bristol, UK",
-    "email": "info@bristolcitywfc.com",
+    "website": "info@bristolcitywfc.com",
     "social_link": "https://www.instagram.com/bristolcitywomensfc"
   },
   {
@@ -176,7 +176,7 @@
     "age_group": "Senior",
     "logo": "images/2/charlton_women.png",
     "address": "The Oakwood, London, UK",
-    "email": "info@cafcwomen.com",
+    "website": "info@cafcwomen.com",
     "social_link": "https://instagram.com/cafcwomen"
   },
   {
@@ -188,7 +188,7 @@
     "age_group": "Senior",
     "logo": "images/2/crystal_palace_women.png",
     "address": "Hayes Lane, London, UK",
-    "email": "info@cpfcwomen.com",
+    "website": "info@cpfcwomen.com",
     "social_link": "https://www.instagram.com/cpfc_w"
   },
   {
@@ -200,7 +200,7 @@
     "age_group": "Senior",
     "logo": "images/2/durham_women.png",
     "address": "Maiden Castle, Durham, UK",
-    "email": "info@durhamwfc.com",
+    "website": "info@durhamwfc.com",
     "social_link": "https://instagram.com/durhamwfc"
   },
   {
@@ -212,7 +212,7 @@
     "age_group": "Senior",
     "logo": "images/2/ipswich_town_women.png",
     "address": "Portman Road, Ipswich, UK",
-    "email": "info@ipswichtownwfc.com",
+    "website": "info@ipswichtownwfc.com",
     "social_link": "https://www.instagram.com/itfcwomen"
   },
   {
@@ -224,7 +224,7 @@
     "age_group": "Senior",
     "logo": "images/2/newcastle_united_women.png",
     "address": "St James' Park, Newcastle, UK",
-    "email": "info@newcastleunitedwfc.com",
+    "website": "info@newcastleunitedwfc.com",
     "social_link": "https://www.instagram.com/newcastleunitedwomen"
   },
   {
@@ -236,7 +236,7 @@
     "age_group": "Senior",
     "logo": "images/2/nottingham_forest_women.png",
     "address": "City Ground, Nottingham, UK",
-    "email": "info@nottinghamforestwfc.com",
+    "website": "info@nottinghamforestwfc.com",
     "social_link": "https://www.instagram.com/nffcwomen"
   },
   {
@@ -248,7 +248,7 @@
     "age_group": "Senior",
     "logo": "images/2/portsmouth_women.png",
     "address": "Fratton Park, Portsmouth, UK",
-    "email": "info@pompeyfc.co.uk",
+    "website": "info@pompeyfc.co.uk",
     "social_link": "https://www.instagram.com/pompeywomen"
   },
   {
@@ -260,7 +260,7 @@
     "age_group": "Senior",
     "logo": "images/2/sheffield_united_women.png",
     "address": "Bramall Lane, Sheffield, UK",
-    "email": "info@sufcwomen.com",
+    "website": "info@sufcwomen.com",
     "social_link": "https://www.instagram.com/sufc_women"
   },
   {
@@ -272,7 +272,7 @@
     "age_group": "Senior",
     "logo": "images/2/southampton_women.png",
     "address": "St Mary's Stadium, Southampton, UK",
-    "email": "info@southamptonfcw.com",
+    "website": "info@southamptonfcw.com",
     "social_link": "https://www.instagram.com/saintsfcwomen"
   },
   {
@@ -284,7 +284,7 @@
     "age_group": "Senior",
     "logo": "images/2/sunderland_afc_women.png",
     "address": "Stadium of Light, Sunderland, UK",
-    "email": "enquiries@safc.com",
+    "website": "enquiries@safc.com",
     "social_link": "https://www.instagram.com/safcwomen"
   },
   {
@@ -296,7 +296,7 @@
     "age_group": "Senior",
     "logo": "images/3/burnley_women.png",
     "address": "Turf Moor, Burnley, UK",
-    "email": "enquiries@burnleyfc.com",
+    "website": "enquiries@burnleyfc.com",
     "social_link": "https://www.instagram.com/burnleyfcwomen"
   },
   {
@@ -308,7 +308,7 @@
     "age_group": "Senior",
     "logo": "images/3/derby_county_women.png",
     "address": "Pride Park Stadium, Derby, UK",
-    "email": "enquiries@dcfc.co.uk",
+    "website": "enquiries@dcfc.co.uk",
     "social_link": "https://www.instagram.com/derbycountyfcwomen"
   },
   {
@@ -320,7 +320,7 @@
     "age_group": "Senior",
     "logo": "images/3/halifax_women.png",
     "address": "Horsfall Community Stadium, Bradford, UK",
-    "email": "secretary@halifaxfc.com",
+    "website": "secretary@halifaxfc.com",
     "social_link": "https://www.instagram.com/halifaxfcwomen"
   },
   {
@@ -332,7 +332,7 @@
     "age_group": "Senior",
     "logo": "images/3/hull_city_women.png",
     "address": "Versa Sportswear Stadium, East Yorkshire,, UK",
-    "email": "enquiries@hullcityafc.com",
+    "website": "enquiries@hullcityafc.com",
     "social_link": "https://www.instagram.com/hullcityladiesfc"
   }
 ]
