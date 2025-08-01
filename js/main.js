@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
       li.dataset.ageGroup = club.age_group;
       li.dataset.logo = club.logo;
       li.dataset.stadium = club.stadium;
-      li.dataset.Website = club.Website;
+      li.dataset.website = club.website;
       li.dataset.socialLink = club.social_link;
 
       li.innerHTML = `
