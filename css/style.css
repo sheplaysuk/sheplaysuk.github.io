@@ -285,8 +285,14 @@ main {
   .club-list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .logo {
+    max-width: 140px;
+  }
   h1 {
-    font-size: 48px;
+    font-size: 40px;
+  }
+  .subheader {
+    font-size: 1rem;
   }
 }
 
@@ -298,8 +304,14 @@ main {
     width: 100%;
     min-width: 0;
   }
+  .logo {
+    max-width: 100px;
+  }
   h1 {
-    font-size: 36px;
+    font-size: 28px;
+  }
+  .subheader {
+    font-size: 0.95rem;
   }
   .modal-content {
     width: 90%;
