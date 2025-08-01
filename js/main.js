@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
       li.dataset.league = club.league;
       li.dataset.ageGroup = club.age_group;
       li.dataset.logo = club.logo;
-      li.dataset.address = club.address;
+      li.dataset.stadium = club.stadium;
       li.dataset.Website = club.Website;
       li.dataset.socialLink = club.social_link;
 
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const league = li.dataset.league || '';
       const ageGroup = li.dataset.ageGroup || '';
       const logo = li.dataset.logo || '';
-      const address = li.dataset.address || '';
+      const stadium = li.dataset.stadium || '';
       const website = li.dataset.website || '';
       const socialLink = li.dataset.socialLink || '';
 
@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p><strong>Location:</strong> ${location}</p>
             <p><strong>League:</strong> ${league}</p>
             <p><strong>Age Group:</strong> ${ageGroup}</p>
-            <p><strong>Address:</strong> ${address}</p>
+            <p><strong>Stadium:</strong> ${stadium}</p>
             <p><strong>Website:</strong> ${website}</p>
             <p><strong>Instagram:</strong> <a href="${socialLink}">${name}</a></p>
           </div>

@@ -7,8 +7,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/arsenal_women.png",
-    "address": "Emirates Stadium, London, UK",
-    "website": "info@arsenalwfc.com",
+    "stadium": "Emirates Stadium",
+    "website": "https://www.arsenal.com/women",
     "social_link": "https://instagram.com/arsenalwfc"
   },
   {
@@ -19,8 +19,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/aston_villa_women.png",
-    "address": "Bescot Stadium, Birmingham, UK",
-    "website": "info@avfcw.com",
+    "stadium": "Villa Park",
+    "website": "https://www.avfc.co.uk/avwfc/",
     "social_link": "https://www.instagram.com/avwfcofficial"
   },
   {
@@ -31,8 +31,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/brighton_women.png",
-    "address": "Broadfield Stadium, Brighton, UK",
-    "website": "info@brightonwfc.com",
+    "stadium": "Broadfield Stadium",
+    "website": "https://www.brightonandhovealbion.com/womens-first-team-fixtures",
     "social_link": "https://www.instagram.com/bhafcwomen/"
   },
   {
@@ -43,8 +43,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/chelsea_women.png",
-    "address": "Kingsmeadow, London, UK",
-    "website": "info@chelseawfc.com",
+    "stadium": "Stamford Bridge / Kingsmeadow",
+    "website": "https://www.chelseafc.com/en/matches/womens-team-fixtures-and-results",
     "social_link": "https://www.instagram.com/chelseafcw"
   },
   {
@@ -55,8 +55,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/everton_women.png",
-    "address": "Walton Hall Park, Liverpool, UK",
-    "website": "info@evertonwfc.com",
+    "stadium": "Goodison Park",
+    "website": "https://www.evertonfc.com/women",
     "social_link": "https://www.instagram.com/evertonwomen"
   },
   {
@@ -67,8 +67,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/leicester_women.png",
-    "address": "King Power Stadium, Leicester, UK",
-    "website": "info@lcfcw.com",
+    "stadium": "King Power Stadium",
+    "website": "https://www.lcfc.com/pages/en/fixtures-results?teamID=12162&roundID=future&seasonStartYear=2025",
     "social_link": "https://www.instagram.com/lcfcwomen"
   },
   {
@@ -79,8 +79,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/liverpool_women.png",
-    "address": "Prenton Park, Liverpool, UK",
-    "website": "info@liverpoolwfc.com",
+    "stadium": "St Helen's Stadium",
+    "website": "https://www.liverpoolfc.com/info/lfc-women",
     "social_link": "https://www.instagram.com/liverpoolfcw"
   },
   {
@@ -91,8 +91,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/london_city_lionesses.png",
-    "address": "Princes Park, London, UK",
-    "website": "info@londoncitylionesses.com",
+    "stadium": "Copperjax Community Stadium",
+    "website": "https://www.londoncitylionesses.com/",
     "social_link": "https://www.instagram.com/londoncitylionesses"
   },
   {
@@ -103,8 +103,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/man_city_women.png",
-    "address": "Academy Stadium, Manchester, UK",
-    "website": "info@mancitywfc.com",
+    "stadium": "Joie Stadium / Etihad Stadium",
+    "website": "https://www.mancity.com/manchester-city-women",
     "social_link": "https://www.instagram.com/mancitywomen"
   },
   {
@@ -115,8 +115,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/man_united_women.png",
-    "address": "Leigh Sports Village, Manchester, UK",
-    "website": "info@manutdwfc.com",
+    "stadium": "Leigh Sports Village",
+    "website": "https://www.manutd.com/en/matches/women/2025-26/all",
     "social_link": "https://www.instagram.com/manutdwomen"
   },
   {
@@ -127,8 +127,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/tottenham_women.png",
-    "address": "The Hive Stadium, London, UK",
-    "website": "info@tottenhamwfc.com",
+    "stadium": "BetWright Stadium",
+    "website": "https://www.tottenhamhotspur.com/teams/women/players/",
     "social_link": "https://www.instagram.com/spurswomen"
   },
   {
@@ -139,8 +139,8 @@
     "league": "Women's Super League",
     "age_group": "Senior",
     "logo": "images/1/west_ham_women.png",
-    "address": "Chigwell Construction Stadium, London, UK",
-    "website": "info@westhamwfc.com",
+    "stadium": "Chigwell Construction Stadium",
+    "website": "https://www.whufc.com/fixture/list/767",
     "social_link": "https://instagram.com/westhamwomen"
   },  
   {
@@ -151,8 +151,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/birmingham_city_women.png",
-    "address": "St Andrew's, Birmingham, UK",
-    "website": "info@bcfcwomen.com",
+    "stadium": "St. Andrew's @ Knighthead Park",
+    "website": "https://www.bcfc.com/pages/en/womens-fixtures",
     "social_link": "https://instagram.com/bcfcwomen"
   },
   {
@@ -163,8 +163,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/bristol_city_women.png",
-    "address": "Ashton Gate, Bristol, UK",
-    "website": "info@bristolcitywfc.com",
+    "stadium": "Ashton Gate Stadium",
+    "website": "https://www.bcfc.co.uk/match-centre/teams/bristol-city-women/fixtures/",
     "social_link": "https://www.instagram.com/bristolcitywomensfc"
   },
   {
@@ -175,8 +175,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/charlton_women.png",
-    "address": "The Oakwood, London, UK",
-    "website": "info@cafcwomen.com",
+    "stadium": "The Valley",
+    "website": "https://www.charltonafc.com/fixture/list/763",
     "social_link": "https://instagram.com/cafcwomen"
   },
   {
@@ -187,8 +187,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/crystal_palace_women.png",
-    "address": "Hayes Lane, London, UK",
-    "website": "info@cpfcwomen.com",
+    "stadium": "VBS Community Stadium / Selhurst Park",
+    "website": "https://www.cpfc.co.uk/palace-women/",
     "social_link": "https://www.instagram.com/cpfc_w"
   },
   {
@@ -199,8 +199,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/durham_women.png",
-    "address": "Maiden Castle, Durham, UK",
-    "website": "info@durhamwfc.com",
+    "stadium": "Maiden Castle",
+    "website": "https://durhamwfc.co.uk/",
     "social_link": "https://instagram.com/durhamwfc"
   },
   {
@@ -211,8 +211,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/ipswich_town_women.png",
-    "address": "Portman Road, Ipswich, UK",
-    "website": "info@ipswichtownwfc.com",
+    "stadium": "Felixstowe & Walton United FC",
+    "website": "https://www.itfc.co.uk/itfc-women/",
     "social_link": "https://www.instagram.com/itfcwomen"
   },
   {
@@ -223,8 +223,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/newcastle_united_women.png",
-    "address": "St James' Park, Newcastle, UK",
-    "website": "info@newcastleunitedwfc.com",
+    "stadium": "Gateshead International Stadium / St James' Park",
+    "website": "https://www.newcastleunited.com/en/teams/womens-team",
     "social_link": "https://www.instagram.com/newcastleunitedwomen"
   },
   {
@@ -235,8 +235,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/nottingham_forest_women.png",
-    "address": "City Ground, Nottingham, UK",
-    "website": "info@nottinghamforestwfc.com",
+    "stadium": "The City Ground",
+    "website": "https://www.nottinghamforest.co.uk/matches/womens-first-team",
     "social_link": "https://www.instagram.com/nffcwomen"
   },
   {
@@ -247,8 +247,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/portsmouth_women.png",
-    "address": "Fratton Park, Portsmouth, UK",
-    "website": "info@pompeyfc.co.uk",
+    "stadium": "Westleigh Park",
+    "website": "https://www.portsmouthfc.co.uk/teams/women",
     "social_link": "https://www.instagram.com/pompeywomen"
   },
   {
@@ -259,8 +259,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/sheffield_united_women.png",
-    "address": "Bramall Lane, Sheffield, UK",
-    "website": "info@sufcwomen.com",
+    "stadium": "Bramall Lane",
+    "website": "https://www.sufc.co.uk/women/",
     "social_link": "https://www.instagram.com/sufc_women"
   },
   {
@@ -271,8 +271,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/southampton_women.png",
-    "address": "St Mary's Stadium, Southampton, UK",
-    "website": "info@southamptonfcw.com",
+    "stadium": "St Mary's Stadium",
+    "website": "https://www.southamptonfc.com/en/matches/mens-team?teamId=5rWqTSv5IrxHLIaTP8kJgM",
     "social_link": "https://www.instagram.com/saintsfcwomen"
   },
   {
@@ -283,56 +283,8 @@
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "logo": "images/2/sunderland_afc_women.png",
-    "address": "Stadium of Light, Sunderland, UK",
-    "website": "enquiries@safc.com",
+    "stadium": "Eppleton Colliery Welfare Ground",
+    "website": "https://www.safc.com/women",
     "social_link": "https://www.instagram.com/safcwomen"
-  },
-  {
-    "id": 25,
-    "sport": "Football",
-    "name": "Burnley",
-    "location": "Lancashire",
-    "league": "FA Women's National League - Northern Premier Division",
-    "age_group": "Senior",
-    "logo": "images/3/burnley_women.png",
-    "address": "Turf Moor, Burnley, UK",
-    "website": "enquiries@burnleyfc.com",
-    "social_link": "https://www.instagram.com/burnleyfcwomen"
-  },
-  {
-    "id": 26,
-    "sport": "Football",
-    "name": "Derby County",
-    "location": "Derbyshire",
-    "league": "FA Women's National League - Northern Premier Division",
-    "age_group": "Senior",
-    "logo": "images/3/derby_county_women.png",
-    "address": "Pride Park Stadium, Derby, UK",
-    "website": "enquiries@dcfc.co.uk",
-    "social_link": "https://www.instagram.com/derbycountyfcwomen"
-  },
-  {
-    "id": 27,
-    "sport": "Football",
-    "name": "Halifax",
-    "location": "West Yorkshire",
-    "league": "FA Women's National League - Northern Premier Division",
-    "age_group": "Senior",
-    "logo": "images/3/halifax_women.png",
-    "address": "Horsfall Community Stadium, Bradford, UK",
-    "website": "secretary@halifaxfc.com",
-    "social_link": "https://www.instagram.com/halifaxfcwomen"
-  },
-  {
-    "id": 24,
-    "sport": "Football",
-    "name": "Hull City",
-    "location": "East Yorkshire",
-    "league": "FA Women's National League - Northern Premier Division",
-    "age_group": "Senior",
-    "logo": "images/3/hull_city_women.png",
-    "address": "Versa Sportswear Stadium, East Yorkshire,, UK",
-    "website": "enquiries@hullcityafc.com",
-    "social_link": "https://www.instagram.com/hullcityladiesfc"
   }
 ]

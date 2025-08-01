@@ -1,0 +1,49 @@
+[{
+    "id": 25,
+    "sport": "Football",
+    "name": "Burnley",
+    "location": "Lancashire",
+    "league": "FA Women's National League - Northern Premier Division",
+    "age_group": "Senior",
+    "logo": "images/3/burnley_women.png",
+    "stadium": "Turf Moor, Burnley, UK",
+    "website": "enquiries@burnleyfc.com",
+    "social_link": "https://www.instagram.com/burnleyfcwomen"
+  },
+  {
+    "id": 26,
+    "sport": "Football",
+    "name": "Derby County",
+    "location": "Derbyshire",
+    "league": "FA Women's National League - Northern Premier Division",
+    "age_group": "Senior",
+    "logo": "images/3/derby_county_women.png",
+    "stadium": "Pride Park Stadium, Derby, UK",
+    "website": "enquiries@dcfc.co.uk",
+    "social_link": "https://www.instagram.com/derbycountyfcwomen"
+  },
+  {
+    "id": 27,
+    "sport": "Football",
+    "name": "Halifax",
+    "location": "West Yorkshire",
+    "league": "FA Women's National League - Northern Premier Division",
+    "age_group": "Senior",
+    "logo": "images/3/halifax_women.png",
+    "stadium": "Horsfall Community Stadium, Bradford, UK",
+    "website": "secretary@halifaxfc.com",
+    "social_link": "https://www.instagram.com/halifaxfcwomen"
+  },
+  {
+    "id": 24,
+    "sport": "Football",
+    "name": "Hull City",
+    "location": "East Yorkshire",
+    "league": "FA Women's National League - Northern Premier Division",
+    "age_group": "Senior",
+    "logo": "images/3/hull_city_women.png",
+    "stadium": "Versa Sportswear Stadium, East Yorkshire,, UK",
+    "website": "enquiries@hullcityafc.com",
+    "social_link": "https://www.instagram.com/hullcityladiesfc"
+  }
+]
