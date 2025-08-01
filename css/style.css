@@ -307,7 +307,7 @@ main {
     font-size: 40px;
   }
   .subheader {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .modal .logo {
     max-width: 90px;
@@ -335,7 +335,7 @@ main {
     font-size: 28px;
   }
   .subheader {
-    font-size: 0.95rem;
+    font-size: 0.5rem;
   }
   .modal-content {
     width: 90%;
