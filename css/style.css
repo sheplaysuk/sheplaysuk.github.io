@@ -390,3 +390,13 @@ main {
   background-color: #1b2864;
   color: #fff;
 }
+
+.club-location {
+ color:#555;
+ font-size: small;
+}
+
+.club-age-group {
+ color:#555;
+ font-size: smaller;
+}

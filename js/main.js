@@ -207,8 +207,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <div style="flex:1;">
             <strong>${club.name}</strong><br/>
             <em>${club.league}</em><br/>
-            ${club.location}<br/>
-            ${club.age_group}
+            <span class="club-location">${club.location}</span><br/>
+            <span class="club-age-group">${club.age_group}</span>
           </div>
         </div>
       `;
@@ -286,12 +286,12 @@ document.addEventListener('DOMContentLoaded', () => {
         <div style="display: flex; gap: 20px; align-items: flex-start; margin-top: 10px;">
           ${logo ? `<img src="${logo}" alt="${name} logo" class="modal-logo">` : ''}
           <div>
-            <p><strong>Location:</strong> ${location}</p>
             <p><strong>League:</strong> ${league}</p>
-            <p><strong>Age Group:</strong> ${ageGroup}</p>
+            <p><strong>Location:</strong> ${location}</p>
             <p><strong>Stadium:</strong> ${stadium}</p>
             <p><strong>Website:</strong> <a href="${website}">${name}</a></p>
             <p><strong>Instagram:</strong> <a href="${socialLink}"><img src="images/insta-logo.png" alt="Instagram" class="social-logo"></a></p>
+            <p><strong>Age Group:</strong> ${ageGroup}</p>
           </div>
         </div>
       `;
