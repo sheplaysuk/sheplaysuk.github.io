@@ -1,11 +1,13 @@
 [
   "Bedfordshire",
   "Bristol",
+  "Cambridgeshire",
   "County Durham",
   "Derbyshire",
   "Devon",
   "Dorset",
   "Essex",
+  "East Midlands",
   "East Sussex",
   "East Yorkshire",
   "Gloucestershire",
@@ -15,15 +17,18 @@
   "Hertfordshire",
   "Lancashire",
   "Leicestershire",
+  "Lincolnshire",
   "Merseyside",
   "North Yorkshire",
   "Nottinghamshire",
   "South Glamorgan",
   "South Yorkshire",
   "Staffordshire",
+  "Stockton-on-Tees",
   "Suffolk",
   "Tyne and Wear",
   "Warwickshire",
   "West Midlands",
-  "West Yorkshire"
+  "West Yorkshire",
+  "Worcestershire"
 ]

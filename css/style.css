@@ -3,7 +3,7 @@ html, body { height: 100%; }
 /*Update to push through deployment*/
 .logo {
   width: 100%;
-  max-width: 180px; /* or whatever max size you want */
+  max-width: 300px; /* or whatever max size you want */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -13,13 +13,14 @@ html, body { height: 100%; }
   text-align: center;
   font-size: 1.2rem;
   color: #555;
+  margin-top: 0;
 }
 
 body {
   font-family: 'League Spartan', sans-serif;
   background: #fff;
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   color: #111827;
 }
 
@@ -399,4 +400,13 @@ main {
 .club-age-group {
  color:#555;
  font-size: smaller;
+}
+
+.call-to-action-bar {
+  background-color: #C9C1FF;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  margin: auto;
+  justify-content: center;
 }

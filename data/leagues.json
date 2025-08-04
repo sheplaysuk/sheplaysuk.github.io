@@ -10,10 +10,17 @@
   {
     "id": 3,
     "name": "FA Women's National League - Northern Premier Division"
-  }
-  ,
+  },
   {
     "id": 4,
     "name": "FA Women's National League - Southern Premier Division"
+  },
+  {
+    "id": 5,
+    "name": "FA Women's National League - Division One North"
+  },
+  {
+    "id": 6,
+    "name": "FA Women's National League - Division One Midlands"
   }
 ]
