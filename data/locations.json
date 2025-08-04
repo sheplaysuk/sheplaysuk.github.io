@@ -1,6 +1,8 @@
 [
   "Bedfordshire",
+  "Berkshire",
   "Bristol",
+  "Buckinghamshire",
   "Cambridgeshire",
   "County Durham",
   "Derbyshire",
@@ -15,12 +17,15 @@
   "Greater Manchester",
   "Hampshire",
   "Hertfordshire",
+  "Kent",
   "Lancashire",
   "Leicestershire",
   "Lincolnshire",
   "Merseyside",
+  "Norfolk",
   "North Yorkshire",
   "Nottinghamshire",
+  "Oxfordshire",
   "South Glamorgan",
   "South Yorkshire",
   "Staffordshire",
@@ -29,6 +34,8 @@
   "Tyne and Wear",
   "Warwickshire",
   "West Midlands",
+  "West Sussex",
   "West Yorkshire",
+  "Wiltshire",
   "Worcestershire"
 ]
