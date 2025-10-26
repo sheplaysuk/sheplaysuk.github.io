@@ -52,28 +52,28 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(err => console.error('football clubs load error', err));
 
   // Fetch and store Cricket data
-  fetch('data/cricket/leagues.json')
+  fetch('data/rugby/leagues.json')
     .then(response => response.json())
     .then(leagues => {
-      cricketLeagues = Array.isArray(leagues) && leagues.length && typeof leagues[0] === 'object'
+      rugbyLeagues = Array.isArray(leagues) && leagues.length && typeof leagues[0] === 'object'
         ? leagues.map(l => l.name)
         : (leagues || []);
-      // do NOT overwrite football leagues; update only if needed when cricket selected
+      // do NOT overwrite football leagues; update only if needed when rugby selected
     })
-    .catch(err => console.error('cricket leagues load error', err));
+    .catch(err => console.error('rugby leagues load error', err));
 
-  fetch('data/cricket/locations.json')
+  fetch('data/rugby/locations.json')
     .then(response => response.json())
     .then(locations => {
-      cricketLocations = locations || [];
+      rugbyLocations = locations || [];
     })
-    .catch(err => console.error('cricket locations load error', err));
+    .catch(err => console.error('rugby locations load error', err));
 
-  fetch('data/cricket/clubs.json')
+  fetch('data/rugby/clubs.json')
     .then(response => response.json())
     .then(clubs => {
-      cricketClubs = clubs || [];
-      allClubs = allClubs.concat(cricketClubs);
+      rugbyClubs = clubs || [];
+      allClubs = allClubs.concat(rugbyClubs);
       allAgeGroups = [...new Set(allClubs.map(club => club.age_group).filter(Boolean))];
       populateAgeGroupFilter(allAgeGroups);
       lastClubsFiltered = allClubs.slice();

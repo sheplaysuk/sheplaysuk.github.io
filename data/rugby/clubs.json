@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "sport": "Rugby",
+    "name": "Bristol Bears",
+    "location": "Bristol",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/bristol-bears.png",
+    "stadium": "Ashton Gate Stadium",
+    "website": "https://www.bristolbearsrugby.com/match-centre/teams/bristol-bears-women/players/",
+    "social_link": "https://www.instagram.com/bristolbearswomen/"
+  },
+  {
+    "id": 2,
+    "sport": "Rugby",
+    "name": "Exeter Chiefs",
+    "location": "Devon",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/exeter-chiefs.png",
+    "stadium": "Sandy Park",
+    "website": "https://www.exeterchiefs.co.uk/club/womens-players",
+    "social_link": "https://www.instagram.com/exechiefswomen/"
+  },
+  {
+    "id": 3,
+    "sport": "Rugby",
+    "name": "Gloucester-Hartpury",
+    "location": "Gloucestershire",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/gloucester-hartpury.png",
+    "stadium": "4ED Hartpury Stadium",
+    "website": "https://www.gloucesterrugby.co.uk/teams/women/squad-list",
+    "social_link": "https://www.instagram.com/gloucesterhartpury/"
+  },
+  {
+    "id": 4,
+    "sport": "Rugby",
+    "name": "Harlequins",
+    "location": "Greater London",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/harlequins.png",
+    "stadium": "Twickenham Stoop",
+    "website": "https://www.quins.co.uk/team/womens-team",
+    "social_link": "https://www.instagram.com/harlequinswomen/"
+  },
+  {
+    "id": 5,
+    "sport": "Rugby",
+    "name": "Leicester Tigers",
+    "location": "Leicestershire",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/leicester-tigers.png",
+    "stadium": "Mattioli Woods Welford Road Stadium",
+    "website": "https://www.leicestertigers.com/team/senior-womens",
+    "social_link": "https://www.instagram.com/tigerswomens/"
+  },
+  {
+    "id": 6,
+    "sport": "Rugby",
+    "name": "Loughborough Lightning",
+    "location": "Leicestershire",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/loughborough-lightning.png",
+    "stadium": "cinch Stadium",
+    "website": "https://www.lightningrugby.co.uk/",
+    "social_link": "https://www.instagram.com/lightningrugby"
+  },
+  {
+    "id": 7,
+    "sport": "Rugby",
+    "name": "Sale Sharks",
+    "location": "Greater Manchester",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/sale-sharks.png",
+    "stadium": "Morson Stadium",
+    "website": "https://www.salesharks.com/sale-sharks-women/",
+    "social_link": "https://www.instagram.com/salesharkswomen/"
+  },
+  {
+    "id": 8,
+    "sport": "Rugby",
+    "name": "Saracens",
+    "location": "Greater London",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/saracens.png",
+    "stadium": "StoneX Stadium",
+    "website": "https://saracens.com/women/",
+    "social_link": "https://www.instagram.com/saracenswomen"
+  },
+  {
+    "id": 9,
+    "sport": "Rugby",
+    "name": "Trailfinders",
+    "location": "Greater London",
+    "league": "Premiership Women's Rugby",
+    "age_group": "Senior",
+    "logo": "images/rugby/premiership-womens-rugby/trailfinders.png",
+    "stadium": "Trailfinders Sports Club",
+    "website": "https://ealingtrailfinders.com/",
+    "social_link": "https://www.instagram.com/trailfinderswomen/"
+  }
+]
