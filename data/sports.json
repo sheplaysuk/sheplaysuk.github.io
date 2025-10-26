@@ -1,6 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Football"
+    "name": "Football",
+    "slug": "football"
+  },
+  {
+    "id": 2,
+    "name": "Cricket",
+    "slug": "cricket"
   }
 ]
