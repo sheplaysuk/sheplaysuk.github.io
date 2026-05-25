@@ -1,62 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 <head>
-  <meta charset="UTF-8">
-  <title>She Plays</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="She Plays UK - A dedicated platform connecting women and girls to their local clubs.">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" href="images/she-plays-primary-no-text.png">
+    <meta charset="UTF-8">
+    <title>She Plays UK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Helping women and girls discover clubs and pathways into sport across the UK">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/she-plays-primary-no-text.png">
 </head>
 <body>
-  <header>
-  <p class="call-to-action-bar">She Plays UK is regularly being updated with additional leagues/clubs. If you want information on your local teams and they're not currently on the site, please email admin@sheplays.co.uk</p>
-  <img src="images/she-plays-primary.png" alt="She Plays Logo" class="logo">
-  <h4 class="subheader">FIND YOUR TEAM. FUEL YOUR PASSION.</h4>
-  <p class="subheader">She Plays UK is a dedicated platform helping women and girls across the UK discover, join and support local clubs.<br/><br/>Whether you’re a new player, an experienced player, or just want to watch, there’s a team for you!</p>
-  </header>
-
-  <nav aria-label="Sports">
-    <div class="tabs">
-      <div id="sportTabs" role="tablist" aria-label="Sport Tabs"></div>
+<div class="announcement">
+    She Plays UK is regularly being updated with additional leagues and clubs.
+</div>
+<header class="hero">
+    <div class="hero-content">
+        <h1>She Plays UK</h1>
+        <h2>Find your place in Women's Football</h2>
+        <p class="hero-text">
+            From grassroots to the elite, discover clubs, pathways and opportunities across the UK.
+        </p>
+        <div class="hero-buttons">
+            <a href="#searchSection" class="primary-btn">Find A Club</a>
+            <!-- Commented out until Pathways and other Menu Options are available-->
+            <!-- <a href="#pathways" class="secondary-btn">Explore Pathways</a>-->
+        </div>
     </div>
-  </nav>
-
-  <form id="searchForm" role="search" aria-label="Search Clubs">
-    <input type="text" id="search" class="searchLabel" placeholder="Search clubs by name or location..." aria-label="Search clubs by name or location">
-    <button type="submit" aria-label="Search">Search</button>
-  </form>
-
-  <div class="content-container">
+</header>
+<!-- Menu section commented out until Beginner Friendly info, Sponsorships and Volunteering Information is available -->
+<!--<section class="journeys" id="pathways">
+    <h2>Choose your path</h2>
+    <div class="journey-grid">
+        <div class="journey-card">
+            <h3>New to Football?</h3>
+            <p>Find beginner-friendly clubs and open sessions.</p>
+        </div>
+        <div class="journey-card">
+            <h3>Sponsorship Opportunities</h3>
+            <p>Find Women/Girls available for Season Sponsorship!</p>
+        </div>
+        <div class="journey-card">
+            <h3>Volunteer</h3>
+            <p>Support local communities through football.</p>
+        </div>
+    </div>
+</section>-->
+<!-- This section of code focuses on the search bar of the site -->
+<section class="search-section" id="searchSection">
+    <h2>Find your local Football Club</h2>
+    <form id="searchForm" role="search">
+        <input type="text" id="search" class="searchLabel" placeholder="Search clubs by name or location..."
+               aria-label="Search clubs by name or location">
+        <button id="clubSearchBtn" type="button">
+            Search
+        </button>
+    </form>
+</section>
+<!-- This section of code covers the main part of the site, the Sidebar and Club Lists -->
+<div class="content-container">
     <aside class="sidebar" aria-label="Filters">
-      <h2>Filters</h2>
-      <label for="leagueFilter">League</label>
-      <select id="leagueFilter" aria-label="League"></select>
-
-      <label for="locationFilter">Location</label>
-      <select id="locationFilter" aria-label="Location"></select>
-
-      <label for="ageGroupFilter">Age Group</label>
-      <select id="ageGroupFilter" aria-label="Age Group"></select>
-
-      <button id="filterSearchBtn" type="button" aria-label="Apply Filters">Search</button>
+        <h2>Filters</h2>
+        <label for="leagueFilter">
+            League
+        </label>
+        <select id="leagueFilter"></select>
+        <label for="locationFilter">
+            Location
+        </label>
+        <select id="locationFilter"></select>
+        <label for="ageGroupFilter">
+            Age Group
+        </label>
+        <select id="ageGroupFilter"></select>
+        <button id="filterSearchBtn" type="button">
+            Apply Filters
+        </button>
     </aside>
-
     <main>
-      <section aria-label="Club Results">
-        <ul id="clubResults" class="club-list" aria-live="polite"></ul>
-        <!-- Pagination will be injected here -->
-      </section>
+        <section>
+            <ul id="clubResults" class="club-list" aria-live="polite"></ul>
+        </section>
     </main>
-  </div>
+    <!--<div-->
+    <!--        id="clubModal"-->
+    <!--        class="modal"-->
+    <!--        role="dialog">-->
+    <!--    <div class="modal-content">-->
+    <!--        <button-->
+    <!--                id="modalClose"-->
+    <!--                class="modal-close">-->
 
-  <div id="clubModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
-    <div class="modal-content">
-      <button id="modalClose" class="modal-close" aria-label="Close">&times;</button>
-      <div id="modalBody"></div>
-    </div>
-  </div>
+    <!--            &times;-->
 
-  <script src="js/main.js"></script>
+    <!--        </button>-->
+    <!--        <div id="modalBody"></div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <!-- This section of the code covers the side panel that comes into view when a user selects the club they're interested in finding out more about. -->
+    <aside id="clubPanel" class="club-panel">
+        <button id="panelClose">
+            X
+        </button>
+        <div id="panelBody">
+            <h2>Select Club</h2>
+            <p>click a club to view details.</p>
+        </div>
+    </aside>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>

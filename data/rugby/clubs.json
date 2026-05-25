@@ -346,5 +346,101 @@
     "stadium": "Trojans RFC",
     "website": "https://trojansfc.rfu.club/teams/trojans-women-i/5121/profile",
     "social_link": "https://www.instagram.com/trojanswomensrugby/"
+  },
+  {
+    "id": 30,
+    "sport": "Rugby",
+    "name": "Bridgnorth Women",
+    "location": "Shropshire",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "Edgar Davies Ground",
+    "website": "https://bridgnorthrfc.rfu.club/teams/bridgnorth-women/5012/profile",
+    "social_link": "https://www.instagram.com/bridgnorthwomensrfc/"
+  },
+  {
+    "id": 31,
+    "sport": "Rugby",
+    "name": "Cannock Lionesses Ladies",
+    "location": "Staffordshire",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
+  },
+  {
+    "id": 32,
+    "sport": "Rugby",
+    "name": "Long Eaton Women",
+    "location": "Derbyshire",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
+  },
+  {
+    "id": 33,
+    "sport": "Rugby",
+    "name": "Old Albanian Saints II",
+    "location": "Hertfordshire",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
+  },
+  {
+    "id": 34,
+    "sport": "Rugby",
+    "name": "Peterborough Women",
+    "location": "Cambridgeshire",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
+  },
+  {
+    "id": 35,
+    "sport": "Rugby",
+    "name": "Shelford Ladies",
+    "location": "Cambridgeshire",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
+  },
+  {
+    "id": 36,
+    "sport": "Rugby",
+    "name": "Sudbury Ladies",
+    "location": "Suffolk",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
+  },
+  {
+    "id": 37,
+    "sport": "Rugby",
+    "name": "Sutton Coldfield Ladies",
+    "location": "West Midlands",
+    "league": "Championship Midlands 2",
+    "age_group": "Senior",
+    "logo": "",
+    "stadium": "",
+    "website": "",
+    "social_link": ""
   }
 ]
