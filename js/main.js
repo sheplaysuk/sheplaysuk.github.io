@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = i;
       if (i === currentPage) btn.disabled = true;
       btn.onclick = () => {
-        currentPage++;
+        currentPage = i;
         renderClubs(lastClubsFiltered);
       };
       pagination.appendChild(btn);
