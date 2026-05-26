@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
           club.location.toLowerCase().includes(searchValue);
 
       const matchesLeague = !league || club.league === league;
-      const matchesLocation = !location || club.location === location;
+      const matchesLocation = !location || club.location.toLowerCase().includes(location.toLowerCase());
       const matchesAgeGroup = !ageGroup || club.age_group === ageGroup;
 
       return (
@@ -93,45 +93,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderClubs(clubs) {
     if (!clubList) return;
-    clubList.innerHTML = '';
 
     const totalPages = Math.max(1, Math.ceil(clubs.length / pageSize));
     const start = (currentPage - 1) * pageSize;
     const end = start + pageSize;
     const clubsToShow = clubs.slice(start, end);
 
+    
+    let html = "";
+
     if (clubsToShow.length === 0) {
-      const li = document.createElement('li');
-      li.className = 'empty';
-      li.textContent = 'No clubs found.';
-      clubList.appendChild(li);
+      html = `<li class="empty">No clubs found.</li>`
     } else {
       clubsToShow.forEach(club => {
-        const li = document.createElement('li');
-
-        li.dataset.name = club.name || '';
-        li.dataset.location = club.location || '';
-        li.dataset.league = club.league || '';
-        li.dataset.ageGroup = club.age_group || '';
-        li.dataset.logo = club.logo || '';
-        li.dataset.stadium = club.stadium || '';
-        li.dataset.website = club.website || '';
-        li.dataset.socialLink = club.social_link || '';
-
-        li.innerHTML = `
-                <div style="display:flex; align-items:center; gap:16px;">
-                    ${club.logo ? `<img src="${club.logo}" alt="${club.name} logo" class="club-logo">` : ''}
-                    <div style="flex:1;">
-                        <strong>${club.name}</strong><br/>
-                        <em>${club.league}</em><br/>
-                        <span>${club.location}</span><br/>
-                        <span class="age-badge" data-age-group="${club.age_group}">${club.age_group}</span>
-                    </div> 
-                </div>`;
-
-        clubList.appendChild(li);
-      });
-    }
+        html += `
+        <li 
+            data-name = "${club.name || ''}"
+            data-location = "${club.location || ''}"
+            data-league = "${club.league || ''}"
+            data-age-group = "${club.age_group || ''}"
+            data-logo = "${club.logo || ''}"
+            data-stadium = "${club.stadium || ''}"
+            data-website = "${club.website || ''}"
+            data-social-link = "${club.social_link || ''}"
+        >
+        <div style="display:flex; align-items:center; gap:16px;">
+            ${club.logo ? `<img src="${club.logo}" loading="lazy" alt="${club.name} logo" class="club-logo">` : ''}
+            <div style="flex:1;">
+            <strong>${club.name}</strong><br/>
+            <em>${club.league}</em><br/>
+            <span>${club.location}</span><br/>
+            <span class="age-badge" data-age-group="${club.age_group}">${club.age_group}</span>
+            </div> 
+        </div>
+        </li>
+      `;
+    });
+  }
+    clubList.innerHTML = html;
     renderPagination(totalPages);
   }
 
