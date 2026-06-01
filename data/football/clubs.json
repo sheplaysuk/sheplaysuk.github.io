@@ -3,1152 +3,2496 @@
     "id": 1,
     "sport": "Football",
     "name": "Arsenal",
-    "location": "Greater London",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/arsenal_women.webp",
-    "stadium": "Emirates Stadium",
-    "website": "https://www.arsenal.com/women",
-    "social_link": "https://instagram.com/arsenalwfc"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/arsenal_women.webp"
+    },
+    "location": {
+      "city": "London",
+      "stadium": "Emirates Stadium",
+      "postcode": "N5 1BU",
+      "latitude": 51.5549,
+      "longitude": -0.1084
+    },
+    "contact": {
+      "website": "https://www.arsenal.com/women",
+      "social_link": "https://instagram.com/arsenalwfc"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 2,
     "sport": "Football",
     "name": "Aston Villa",
-    "location": "West Midlands",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/aston_villa_women.webp",
-    "stadium": "Villa Park",
-    "website": "https://www.avfc.co.uk/avwfc/",
-    "social_link": "https://www.instagram.com/avwfcofficial"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/aston_villa_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "Villa Park",
+      "postcode": "B6 6HE",
+      "latitude": 52.5092,
+      "longitude": -1.88508
+    },
+    "contact": {
+      "website": "https://www.avfc.co.uk/avwfc/",
+      "social_link": "https://www.instagram.com/avwfcofficial"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 3,
     "sport": "Football",
     "name": "Brighton & Hove Albion",
-    "location": "East Sussex",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/brighton_women.webp",
-    "stadium": "Broadfield Stadium",
-    "website": "https://www.brightonandhovealbion.com/womens-first-team-fixtures",
-    "social_link": "https://www.instagram.com/bhafcwomen/"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/brighton_women.webp"
+    },
+    "location": {
+      "city": "East Sussex",
+      "stadium": "Broadfield Stadium",
+      "postcode": "RH11 9RX",
+      "latitude": 51.09972,
+      "longitude": -0.19472
+    },
+    "contact": {
+      "website": "https://www.brightonandhovealbion.com/womens-first-team-fixtures",
+      "social_link": "https://www.instagram.com/bhafcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 4,
     "sport": "Football",
     "name": "Chelsea",
-    "location": "Greater London",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/chelsea_women.webp",
-    "stadium": "Stamford Bridge / Kingsmeadow",
-    "website": "https://www.chelseafc.com/en/matches/womens-team-fixtures-and-results",
-    "social_link": "https://www.instagram.com/chelseafcw"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/chelsea_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "Stamford Bridge / Kingsmeadow",
+      "postcode": "KT1 3PB",
+      "latitude": 51.405102,
+      "longitude": -0.281984
+    },
+    "contact": {
+      "website": "https://www.chelseafc.com/en/matches/womens-team-fixtures-and-results",
+      "social_link": "https://www.instagram.com/chelseafcw"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 5,
     "sport": "Football",
     "name": "Everton",
-    "location": "Merseyside",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/everton_women.webp",
-    "stadium": "Goodison Park",
-    "website": "https://www.evertonfc.com/women",
-    "social_link": "https://www.instagram.com/evertonwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/everton_women.webp"
+    },
+    "location": {
+      "city": "Merseyside",
+      "stadium": "Goodison Park",
+      "postcode": "L4 4EL",
+      "latitude": 53.4387,
+      "longitude": -2.9667
+    },
+    "contact": {
+      "website": "https://www.evertonfc.com/women",
+      "social_link": "https://www.instagram.com/evertonwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 6,
     "sport": "Football",
     "name": "Leicester City",
-    "location": "Leicestershire",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/leicester_women.webp",
-    "stadium": "King Power Stadium",
-    "website": "https://www.lcfc.com/pages/en/fixtures-results?teamID=12162&roundID=future&seasonStartYear=2025",
-    "social_link": "https://www.instagram.com/lcfcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/leicester_women.webp"
+    },
+    "location": {
+      "city": "Leicestershire",
+      "stadium": "King Power Stadium",
+      "postcode": "LE2 7FL",
+      "latitude": 52.620640,
+      "longitude": -1.142770
+    },
+    "contact": {
+      "website": "https://www.lcfc.com/pages/en/fixtures-results?teamID=12162&roundID=future&seasonStartYear=2025",
+      "social_link": "https://www.instagram.com/lcfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 7,
     "sport": "Football",
     "name": "Liverpool",
-    "location": "Merseyside",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/liverpool_women.webp",
-    "stadium": "St Helen's Stadium",
-    "website": "https://www.liverpoolfc.com/info/lfc-women",
-    "social_link": "https://www.instagram.com/liverpoolfcw"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/liverpool_women.webp"
+    },
+    "location": {
+      "city": "Merseyside",
+      "stadium": "BrewDog Stadium",
+      "postcode": "WA9 3AL",
+      "latitude": 53.44750,
+      "longitude": -2.72750
+    },
+    "contact": {
+      "website": "https://www.liverpoolfc.com/info/lfc-women",
+      "social_link": "https://www.instagram.com/liverpoolfcw"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 8,
     "sport": "Football",
     "name": "London City Lionesses",
-    "location": "Greater London",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/london_city_lionesses.webp",
-    "stadium": "Copperjax Community Stadium",
-    "website": "https://www.londoncitylionesses.com/",
-    "social_link": "https://www.instagram.com/londoncitylionesses"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/london_city_lionesses.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "Copperjax Community Stadium",
+      "postcode": "BR2 9EF",
+      "latitude": 51.390,
+      "longitude": 0.021
+    },
+    "contact": {
+      "website": "https://www.londoncitylionesses.com/",
+      "social_link": "https://www.instagram.com/londoncitylionesses"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 9,
     "sport": "Football",
     "name": "Manchester City",
-    "location": "Greater Manchester",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/man_city_women.webp",
-    "stadium": "Joie Stadium / Etihad Stadium",
-    "website": "https://www.mancity.com/manchester-city-women",
-    "social_link": "https://www.instagram.com/mancitywomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/man_city_women.webp"
+    },
+    "location": {
+      "city": "Greater Manchester",
+      "stadium": "Joie Stadium / Etihad Stadium",
+      "postcode": "M11 4TQ",
+      "latitude": 53.48111,
+      "longitude": -2.19278
+    },
+    "contact": {
+      "website": "https://www.mancity.com/manchester-city-women",
+      "social_link": "https://www.instagram.com/mancitywomen"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 10,
     "sport": "Football",
     "name": "Manchester United",
-    "location": "Greater Manchester",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/man_united_women.webp",
-    "stadium": "Leigh Sports Village",
-    "website": "https://www.manutd.com/en/matches/women/2025-26/all",
-    "social_link": "https://www.instagram.com/manutdwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/man_united_women.webp"
+    },
+    "location": {
+      "city": "Greater Manchester",
+      "stadium": "Leigh Sports Village",
+      "postcode": "WN7 4JY",
+      "latitude": 53.489803,
+      "longitude": -2.530909
+    },
+    "contact": {
+      "website": "https://www.manutd.com/en/matches/women/2025-26/all",
+      "social_link": "https://www.instagram.com/manutdwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 11,
     "sport": "Football",
     "name": "Tottenham Hotspur",
-    "location": "Greater London",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/tottenham_women.webp",
-    "stadium": "BetWright Stadium",
-    "website": "https://www.tottenhamhotspur.com/teams/women/players/",
-    "social_link": "https://www.instagram.com/spurswomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/tottenham_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "BetWright Stadium",
+      "postcode": "E10 5NF",
+      "latitude": 51.55998,
+      "longitude": -0.01292
+    },
+    "contact": {
+      "website": "https://www.tottenhamhotspur.com/teams/women/players/",
+      "social_link": "https://www.instagram.com/spurswomen"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 12,
     "sport": "Football",
     "name": "West Ham United",
-    "location": "Greater London",
     "league": "Women's Super League",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-1/west_ham_women.webp",
-    "stadium": "Chigwell Construction Stadium",
-    "website": "https://www.whufc.com/fixture/list/767",
-    "social_link": "https://instagram.com/westhamwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-1/west_ham_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "Chigwell Construction Stadium",
+      "postcode": "RM10 7XL",
+      "latitude": 51.541,
+      "longitude": 0.165
+    },
+    "contact": {
+      "website": "https://www.whufc.com/fixture/list/767",
+      "social_link": "https://instagram.com/westhamwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "No",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 13,
     "sport": "Football",
     "name": "Birmingham City",
-    "location": "West Midlands",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/birmingham_city_women.webp",
-    "stadium": "St. Andrew's @ Knighthead Park",
-    "website": "https://www.bcfc.com/pages/en/womens-fixtures",
-    "social_link": "https://instagram.com/bcfcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/birmingham_city_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "St. Andrew's @ Knighthead Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.bcfc.com/pages/en/womens-fixtures",
+      "social_link": "https://instagram.com/bcfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 14,
     "sport": "Football",
     "name": "Bristol City",
-    "location": "Bristol",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/bristol_city_women.webp",
-    "stadium": "Ashton Gate Stadium",
-    "website": "https://www.bcfc.co.uk/match-centre/teams/bristol-city-women/fixtures/",
-    "social_link": "https://www.instagram.com/bristolcitywomensfc"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/bristol_city_women.webp"
+    },
+    "location": {
+      "city": "Bristol",
+      "stadium": "Ashton Gate Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.bcfc.co.uk/match-centre/teams/bristol-city-women/fixtures/",
+      "social_link": "https://www.instagram.com/bristolcitywomensfc"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 15,
     "sport": "Football",
     "name": "Charlton Athletic",
-    "location": "Greater London",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/charlton_women.webp",
-    "stadium": "The Valley",
-    "website": "https://www.charltonafc.com/fixture/list/763",
-    "social_link": "https://instagram.com/cafcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/charlton_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "The Valley",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.charltonafc.com/fixture/list/763",
+      "social_link": "https://instagram.com/cafcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 16,
     "sport": "Football",
     "name": "Crystal Palace",
-    "location": "Greater London",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/crystal_palace_women.webp",
-    "stadium": "VBS Community Stadium / Selhurst Park",
-    "website": "https://www.cpfc.co.uk/palace-women/",
-    "social_link": "https://www.instagram.com/cpfc_w"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/crystal_palace_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "VBS Community Stadium / Selhurst Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.cpfc.co.uk/palace-women/",
+      "social_link": "https://www.instagram.com/cpfc_w"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 17,
     "sport": "Football",
-    "name": "Durham ",
-    "location": "County Durham",
+    "name": "Durham",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/durham_women.webp",
-    "stadium": "Maiden Castle",
-    "website": "https://durhamwfc.co.uk/",
-    "social_link": "https://instagram.com/durhamwfc"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/durham_women.webp"
+    },
+    "location": {
+      "city": "County Durham",
+      "stadium": "Maiden Castle",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://durhamwfc.co.uk/",
+      "social_link": "https://instagram.com/durhamwfc"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 18,
     "sport": "Football",
     "name": "Ipswich Town",
-    "location": "Suffolk",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/ipswich_town_women.webp",
-    "stadium": "Felixstowe & Walton United FC",
-    "website": "https://www.itfc.co.uk/itfc-women/",
-    "social_link": "https://www.instagram.com/itfcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/ipswich_town_women.webp"
+    },
+    "location": {
+      "city": "Suffolk",
+      "stadium": "Felixstowe & Walton United FC",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.itfc.co.uk/itfc-women/",
+      "social_link": "https://www.instagram.com/itfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 19,
     "sport": "Football",
     "name": "Newcastle United",
-    "location": "Tyne and Wear",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/newcastle_united_women.webp",
-    "stadium": "Gateshead International Stadium / St James' Park",
-    "website": "https://www.newcastleunited.com/en/teams/womens-team",
-    "social_link": "https://www.instagram.com/newcastleunitedwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/newcastle_united_women.webp"
+    },
+    "location": {
+      "city": "Tyne and Wear",
+      "stadium": "Gateshead International Stadium / St James' Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.newcastleunited.com/en/teams/womens-team",
+      "social_link": "https://www.instagram.com/newcastleunitedwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 20,
     "sport": "Football",
     "name": "Nottingham Forest",
-    "location": "Nottinghamshire",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/nottingham_forest_women.webp",
-    "stadium": "The City Ground",
-    "website": "https://www.nottinghamforest.co.uk/matches/womens-first-team",
-    "social_link": "https://www.instagram.com/nffcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/nottingham_forest_women.webp"
+    },
+    "location": {
+      "city": "Nottinghamshire",
+      "stadium": "The City Ground",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.nottinghamforest.co.uk/matches/womens-first-team",
+      "social_link": "https://www.instagram.com/nffcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 21,
     "sport": "Football",
     "name": "Portsmouth",
-    "location": "Hampshire",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/portsmouth_women.webp",
-    "stadium": "Westleigh Park",
-    "website": "https://www.portsmouthfc.co.uk/teams/women",
-    "social_link": "https://www.instagram.com/pompeywomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/portsmouth_women.webp"
+    },
+    "location": {
+      "city": "Hampshire",
+      "stadium": "Westleigh Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.portsmouthfc.co.uk/teams/women",
+      "social_link": "https://www.instagram.com/pompeywomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 22,
     "sport": "Football",
     "name": "Sheffield United",
-    "location": "South Yorkshire",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/sheffield_united_women.webp",
-    "stadium": "Bramall Lane",
-    "website": "https://www.sufc.co.uk/women/",
-    "social_link": "https://www.instagram.com/sufc_women"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/sheffield_united_women.webp"
+    },
+    "location": {
+      "city": "South Yorkshire",
+      "stadium": "Bramall Lane",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.sufc.co.uk/women/",
+      "social_link": "https://www.instagram.com/sufc_women"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 23,
     "sport": "Football",
     "name": "Southampton",
-    "location": "Hampshire",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/southampton_women.webp",
-    "stadium": "St Mary's Stadium",
-    "website": "https://www.southamptonfc.com/en/matches/mens-team?teamId=5rWqTSv5IrxHLIaTP8kJgM",
-    "social_link": "https://www.instagram.com/saintsfcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/southampton_women.webp"
+    },
+    "location": {
+      "city": "Hampshire",
+      "stadium": "St Mary's Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.southamptonfc.com/en/matches/mens-team?teamId=5rWqTSv5IrxHLIaTP8kJgM",
+      "social_link": "https://www.instagram.com/saintsfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 24,
     "sport": "Football",
     "name": "Sunderland A.F.C.",
-    "location": "Tyne and Wear",
     "league": "Women's Super League 2",
     "age_group": "Senior",
-    "logo": "images/football/womens-super-league-2/sunderland_afc_women.webp",
-    "stadium": "Eppleton Colliery Welfare Ground",
-    "website": "https://www.safc.com/women",
-    "social_link": "https://www.instagram.com/safcwomen"
+    "branding": {
+      "logo": "images/football/womens-super-league-2/sunderland_afc_women.webp"
+    },
+    "location": {
+      "city": "Tyne and Wear",
+      "stadium": "Eppleton Colliery Welfare Ground",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.safc.com/women",
+      "social_link": "https://www.instagram.com/safcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 25,
     "sport": "Football",
     "name": "Burnley",
-    "location": "Lancashire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/burnley_women.webp",
-    "stadium": "Lancashire FA County Ground",
-    "website": "https://www.burnleyfootballclub.com/matches/women/fixtures",
-    "social_link": "https://www.instagram.com/burnleyfcwomen"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/burnley_women.webp"
+    },
+    "location": {
+      "city": "Lancashire",
+      "stadium": "Lancashire FA County Ground",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.burnleyfootballclub.com/matches/women/fixtures",
+      "social_link": "https://www.instagram.com/burnleyfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 26,
     "sport": "Football",
     "name": "Derby County",
-    "location": "Derbyshire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/derby_county_women.webp",
-    "stadium": "Mickleover Football Club",
-    "website": "https://www.dcfc.co.uk/fixtures?team=298",
-    "social_link": "https://www.instagram.com/derbycountyfcwomen"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/derby_county_women.webp"
+    },
+    "location": {
+      "city": "Derbyshire",
+      "stadium": "Mickleover Football Club",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.dcfc.co.uk/fixtures?team=298",
+      "social_link": "https://www.instagram.com/derbycountyfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 27,
     "sport": "Football",
     "name": "Halifax",
-    "location": "West Yorkshire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/halifax_women.webp",
-    "stadium": "Horsfall Community Stadium",
-    "website": "https://halifaxfcwomen.co.uk/",
-    "social_link": "https://www.instagram.com/halifaxfcwomen"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/halifax_women.webp"
+    },
+    "location": {
+      "city": "West Yorkshire",
+      "stadium": "Horsfall Community Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://halifaxfcwomen.co.uk/",
+      "social_link": "https://www.instagram.com/halifaxfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 28,
     "sport": "Football",
     "name": "Hull City",
-    "location": "East Yorkshire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/hull_city_women.webp",
-    "stadium": "Versa Sportswear Stadium",
-    "website": "https://hullcityladies.com/",
-    "social_link": "https://www.instagram.com/hullcityladiesfc"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/hull_city_women.webp"
+    },
+    "location": {
+      "city": "East Yorkshire",
+      "stadium": "Versa Sportswear Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://hullcityladies.com/",
+      "social_link": "https://www.instagram.com/hullcityladiesfc"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 29,
     "sport": "Football",
     "name": "Liverpool Feds",
-    "location": "Merseyside",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/liverpool_feds_women.webp",
-    "stadium": "Jericho Lane Football Hub",
-    "website": "https://liverpoolfeds.com/",
-    "social_link": "https://www.instagram.com/liverpoolfedswfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/liverpool_feds_women.webp"
+    },
+    "location": {
+      "city": "Merseyside",
+      "stadium": "Jericho Lane Football Hub",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://liverpoolfeds.com/",
+      "social_link": "https://www.instagram.com/liverpoolfedswfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 30,
     "sport": "Football",
     "name": "Loughborough Lightning",
-    "location": "Leicestershire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/loughborough_lightning_women.webp",
-    "stadium": "Loughborough University Stadium",
-    "website": "https://www.lboro.ac.uk/sport/performance/lightning/football/",
-    "social_link": "https://www.instagram.com/ll.football_/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/loughborough_lightning_women.webp"
+    },
+    "location": {
+      "city": "Leicestershire",
+      "stadium": "Loughborough University Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.lboro.ac.uk/sport/performance/lightning/football/",
+      "social_link": "https://www.instagram.com/ll.football_/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 31,
     "sport": "Football",
     "name": "Middlesbrough",
-    "location": "North Yorkshire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/middlesbrough_women.webp",
-    "stadium": "Stockton Town FC",
-    "website": "https://www.mfc.co.uk/matches/womens",
-    "social_link": "https://www.instagram.com/borowomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/middlesbrough_women.webp"
+    },
+    "location": {
+      "city": "North Yorkshire",
+      "stadium": "Stockton Town FC",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.mfc.co.uk/matches/womens",
+      "social_link": "https://www.instagram.com/borowomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 32,
     "sport": "Football",
     "name": "Rugby Borough",
-    "location": "Warwickshire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/rugby_borough_women.webp",
-    "stadium": "Kilsby Lane",
-    "website": "https://www.rugbyboroughfc.co.uk/women/",
-    "social_link": "https://www.instagram.com/rugbyboroughwfc"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/rugby_borough_women.webp"
+    },
+    "location": {
+      "city": "Warwickshire",
+      "stadium": "Kilsby Lane",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.rugbyboroughfc.co.uk/women/",
+      "social_link": "https://www.instagram.com/rugbyboroughwfc"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 33,
     "sport": "Football",
     "name": "Sporting Khalsa",
-    "location": "West Midlands",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/sporting_khalsa_women.webp",
-    "stadium": "The Guardian Warehousing Arena",
-    "website": "https://www.pitchero.com/clubs/sportingkhalsafootballclub3/teams/252516",
-    "social_link": "https://www.instagram.com/khalsawomen/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/sporting_khalsa_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "The Guardian Warehousing Arena",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.pitchero.com/clubs/sportingkhalsafootballclub3/teams/252516",
+      "social_link": "https://www.instagram.com/khalsawomen/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 34,
     "sport": "Football",
     "name": "Stoke City",
-    "location": "Staffordshire",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/stoke_city_women.webp",
-    "stadium": "Wellbeing Park",
-    "website": "https://www.stokecityfc.com/club/women/",
-    "social_link": "https://www.instagram.com/scfc_women"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/stoke_city_women.webp"
+    },
+    "location": {
+      "city": "Staffordshire",
+      "stadium": "Wellbeing Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.stokecityfc.com/club/women/",
+      "social_link": "https://www.instagram.com/scfc_women"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 35,
     "sport": "Football",
     "name": "West Bromwich Albion",
-    "location": "West Midlands",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/west_bromwich_albion_women.webp",
-    "stadium": "Valley Stadium",
-    "website": "https://www.wba.co.uk/news/womens-team",
-    "social_link": "https://www.instagram.com/wbawomen/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/west_bromwich_albion_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "Valley Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.wba.co.uk/news/womens-team",
+      "social_link": "https://www.instagram.com/wbawomen/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 36,
     "sport": "Football",
     "name": "Wolverhampton Wanderers",
-    "location": "West Midlands",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-northern-premier-division/wolverhampton_wanderers_women.webp",
-    "stadium": "SEAH Stadium",
-    "website": "https://www.wolves.co.uk/wolves-women/",
-    "social_link": "https://www.instagram.com/wolveswomenfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/wolverhampton_wanderers_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "SEAH Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.wolves.co.uk/wolves-women/",
+      "social_link": "https://www.instagram.com/wolveswomenfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 37,
     "sport": "Football",
     "name": "AFC Bournemouth",
-    "location": "Dorset",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/afc_bournemouth_women.webp",
-    "stadium": "Ringwood Community Hub",
-    "website": "https://www.afcb.co.uk/matches/women/",
-    "social_link": "https://www.instagram.com/afcbwomen/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/afc_bournemouth_women.webp"
+    },
+    "location": {
+      "city": "Dorset",
+      "stadium": "Ringwood Community Hub",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.afcb.co.uk/matches/women/",
+      "social_link": "https://www.instagram.com/afcbwomen/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 38,
     "sport": "Football",
     "name": "AFC Wimbledon",
-    "location": "Surrey",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/afc_wimbledon_women.webp",
-    "stadium": "Cherry Red Records Stadium",
-    "website": "https://www.afcwimbledon.co.uk/women",
-    "social_link": "https://www.instagram.com/afcwwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/afc_wimbledon_women.webp"
+    },
+    "location": {
+      "city": "Surrey",
+      "stadium": "Cherry Red Records Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.afcwimbledon.co.uk/women",
+      "social_link": "https://www.instagram.com/afcwwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 39,
     "sport": "Football",
     "name": "Billericay Town",
-    "location": "Essex",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/billericay_town_women.webp",
-    "stadium": "New Lodge Stadium",
-    "website": "https://www.btfcwomen.co.uk/",
-    "social_link": "https://www.instagram.com/btfcwomen"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/billericay_town_women.webp"
+    },
+    "location": {
+      "city": "Essex",
+      "stadium": "New Lodge Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.btfcwomen.co.uk/",
+      "social_link": "https://www.instagram.com/btfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 40,
     "sport": "Football",
     "name": "Cheltenham Town",
-    "location": "Gloucestershire",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/cheltenham_town_women.webp",
-    "stadium": "Bishops Cleeve FC",
-    "website": "https://ctwomenfc.com/",
-    "social_link": "https://www.instagram.com/ctwomenfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/cheltenham_town_women.webp"
+    },
+    "location": {
+      "city": "Gloucestershire",
+      "stadium": "Bishops Cleeve FC",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://ctwomenfc.com/",
+      "social_link": "https://www.instagram.com/ctwomenfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 41,
     "sport": "Football",
     "name": "Exeter City",
-    "location": "Devon",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/exeter_city_women.webp",
-    "stadium": "Coach Road",
-    "website": "https://www.exetercityfc.co.uk/fixture/list/1035",
-    "social_link": "https://www.instagram.com/exetercitywomensfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/exeter_city_women.webp"
+    },
+    "location": {
+      "city": "Devon",
+      "stadium": "Coach Road",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.exetercityfc.co.uk/fixture/list/1035",
+      "social_link": "https://www.instagram.com/exetercitywomensfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 42,
     "sport": "Football",
     "name": "Gwalia United",
-    "location": "South Glamorgan",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/gwalia_united_women.webp",
-    "stadium": "USW Sports Park",
-    "website": "https://gwaliaunited.com/",
-    "social_link": "https://www.instagram.com/gwaliaunited/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/gwalia_united_women.webp"
+    },
+    "location": {
+      "city": "South Glamorgan",
+      "stadium": "USW Sports Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://gwaliaunited.com/",
+      "social_link": "https://www.instagram.com/gwaliaunited/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 43,
     "sport": "Football",
     "name": "Hashtag United",
-    "location": "Essex",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/hashtag_united_women.webp",
-    "stadium": "Parkside",
-    "website": "https://hashtagunited.co.uk/list/women/",
-    "social_link": "https://www.instagram.com/hashtagutdwomen"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/hashtag_united_women.webp"
+    },
+    "location": {
+      "city": "Essex",
+      "stadium": "Parkside",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://hashtagunited.co.uk/list/women/",
+      "social_link": "https://www.instagram.com/hashtagutdwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 44,
     "sport": "Football",
     "name": "Lewes",
-    "location": "East Sussex",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/lewes_women.webp",
-    "stadium": "The Dripping Pan",
-    "website": "https://lewesfc.com/teams/womens-1st-team/",
-    "social_link": "https://www.instagram.com/lewesfcwomen"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/lewes_women.webp"
+    },
+    "location": {
+      "city": "East Sussex",
+      "stadium": "The Dripping Pan",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://lewesfc.com/teams/womens-1st-team/",
+      "social_link": "https://www.instagram.com/lewesfcwomen"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 45,
     "sport": "Football",
     "name": "Oxford United",
-    "location": "Oxfordshire",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/oxford_united_women.webp",
-    "stadium": "Court Place Farm",
-    "website": "https://www.oufc.co.uk/fixture/list/960",
-    "social_link": "https://www.instagram.com/officialouwfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/oxford_united_women.webp"
+    },
+    "location": {
+      "city": "Oxfordshire",
+      "stadium": "Court Place Farm",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.oufc.co.uk/fixture/list/960",
+      "social_link": "https://www.instagram.com/officialouwfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 46,
     "sport": "Football",
     "name": "Plymouth Argyle",
-    "location": "Devon",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/plymouth_argyle_women.webp",
-    "stadium": "Home Park",
-    "website": "https://www.pafc.co.uk/fixture/list/1104",
-    "social_link": "https://www.instagram.com/argylewomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/plymouth_argyle_women.webp"
+    },
+    "location": {
+      "city": "Devon",
+      "stadium": "Home Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.pafc.co.uk/fixture/list/1104",
+      "social_link": "https://www.instagram.com/argylewomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 47,
     "sport": "Football",
     "name": "Real Bedford",
-    "location": "Bedfordshire",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/real_bedford_women.webp",
-    "stadium": "Ledger Stadium",
-    "website": "https://www.realbedford.com/",
-    "social_link": "https://www.instagram.com/realbedfordwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/real_bedford_women.webp"
+    },
+    "location": {
+      "city": "Bedfordshire",
+      "stadium": "Ledger Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.realbedford.com/",
+      "social_link": "https://www.instagram.com/realbedfordwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 48,
     "sport": "Football",
     "name": "Watford",
-    "location": "Hertfordshire",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-southern-premier-division/watford_women.webp",
-    "stadium": "Grosvenor Vale",
-    "website": "https://www.watfordfc.com/news#Women",
-    "social_link": "https://www.instagram.com/watfordfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/watford_women.webp"
+    },
+    "location": {
+      "city": "Hertfordshire",
+      "stadium": "Grosvenor Vale",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.watfordfc.com/news#Women",
+      "social_link": "https://www.instagram.com/watfordfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 49,
     "sport": "Football",
     "name": "Blackburn Rovers",
-    "location": "Lancashire",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/blackburn_rovers_women.webp",
-    "stadium": "Ewood Park",
-    "website": "https://www.rovers.co.uk/club/women/",
-    "social_link": "https://www.instagram.com/roverswfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/blackburn_rovers_women.webp"
+    },
+    "location": {
+      "city": "Lancashire",
+      "stadium": "Ewood Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.rovers.co.uk/club/women/",
+      "social_link": "https://www.instagram.com/roverswfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 50,
     "sport": "Football",
     "name": "Cheadle Town Stingers",
-    "location": "Greater Manchester",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/cheadle_town_stingers_women.webp",
-    "stadium": "Park Road Stadium",
-    "website": "https://www.cheadletown.co.uk/womens",
-    "social_link": "https://www.instagram.com/cheadletownstingerswfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/cheadle_town_stingers_women.webp"
+    },
+    "location": {
+      "city": "Greater Manchester",
+      "stadium": "Park Road Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.cheadletown.co.uk/womens",
+      "social_link": "https://www.instagram.com/cheadletownstingerswfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 51,
     "sport": "Football",
     "name": "Chester Le Street Town",
-    "location": "County Durham",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/chester_le_street_town_women.webp",
-    "stadium": "Moor Park",
-    "website": "https://www.chesterlestreettownfc.com/ladiesfixtures",
-    "social_link": "https://www.instagram.com/clstownladies/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/chester_le_street_town_women.webp"
+    },
+    "location": {
+      "city": "County Durham",
+      "stadium": "Moor Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.chesterlestreettownfc.com/ladiesfixtures",
+      "social_link": "https://www.instagram.com/clstownladies/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 52,
     "sport": "Football",
     "name": "Chorley",
-    "location": "Lancashire",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/chorley_women.webp",
-    "stadium": "Euxton Villa FC",
-    "website": "https://chorleywomenfc.co.uk/",
-    "social_link": "https://www.instagram.com/chorleyfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/chorley_women.webp"
+    },
+    "location": {
+      "city": "Lancashire",
+      "stadium": "Euxton Villa FC",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://chorleywomenfc.co.uk/",
+      "social_link": "https://www.instagram.com/chorleyfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 53,
     "sport": "Football",
     "name": "Doncaster Rovers Belles",
-    "location": "South Yorkshire",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/doncaster_rovers_belles_women.webp",
-    "stadium": "Millmoor Stadium",
-    "website": "https://www.doncasterroversfc.co.uk/belles",
-    "social_link": "https://www.instagram.com/donnybelles/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/doncaster_rovers_belles_women.webp"
+    },
+    "location": {
+      "city": "South Yorkshire",
+      "stadium": "Millmoor Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.doncasterroversfc.co.uk/belles",
+      "social_link": "https://www.instagram.com/donnybelles/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 54,
     "sport": "Football",
     "name": "Durham Cestria",
-    "location": "County Durham",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/durham_cestria_women.webp",
-    "stadium": "Maiden Castle",
-    "website": "https://durhamwfc.co.uk/durham-cestria/",
-    "social_link": "https://www.instagram.com/durhamcestriawfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/durham_cestria_women.webp"
+    },
+    "location": {
+      "city": "County Durham",
+      "stadium": "Maiden Castle",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://durhamwfc.co.uk/durham-cestria/",
+      "social_link": "https://www.instagram.com/durhamcestriawfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 55,
     "sport": "Football",
     "name": "Huddersfield Town",
-    "location": "West Yorkshire",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/huddersfield_town_women.webp",
-    "stadium": "The Stafflex Arena",
-    "website": "https://www.htwfc.co.uk/",
-    "social_link": "https://www.instagram.com/htafcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/huddersfield_town_women.webp"
+    },
+    "location": {
+      "city": "West Yorkshire",
+      "stadium": "The Stafflex Arena",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.htwfc.co.uk/",
+      "social_link": "https://www.instagram.com/htafcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 56,
     "sport": "Football",
     "name": "Leeds United",
-    "location": "West Yorkshire",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/leeds_united_women.webp",
-    "stadium": "Bannister Prentice Stadium",
-    "website": "https://www.leedsunited.com/en/matches/womens-team/fixtures",
-    "social_link": ""
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/leeds_united_women.webp"
+    },
+    "location": {
+      "city": "West Yorkshire",
+      "stadium": "Bannister Prentice Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.leedsunited.com/en/matches/womens-team/fixtures",
+      "social_link": ""
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 57,
     "sport": "Football",
     "name": "Norton and Stockton Ancients",
-    "location": "Stockton-on-Tees",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/norton_and_stockton_ancients_women.webp",
-    "stadium": "The Norton Sports Complex",
-    "website": "https://www.nortonfcladies.co.uk/",
-    "social_link": "https://www.instagram.com/nortonfcladies"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/norton_and_stockton_ancients_women.webp"
+    },
+    "location": {
+      "city": "Stockton-on-Tees",
+      "stadium": "The Norton Sports Complex",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.nortonfcladies.co.uk/",
+      "social_link": "https://www.instagram.com/nortonfcladies"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 58,
     "sport": "Football",
     "name": "Stockport County",
-    "location": "Greater Manchester",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/stockport_county_women.webp",
-    "stadium": "Stockport Sports Village",
-    "website": "https://stockportcountylfc.com/",
-    "social_link": "https://www.instagram.com/stockportcountylfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/stockport_county_women.webp"
+    },
+    "location": {
+      "city": "Greater Manchester",
+      "stadium": "Stockport Sports Village",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://stockportcountylfc.com/",
+      "social_link": "https://www.instagram.com/stockportcountylfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 59,
     "sport": "Football",
     "name": "Wythenshawe",
-    "location": "Greater Manchester",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/wythenshawe_women.webp",
-    "stadium": "Hollyhedge Park Community Stadium",
-    "website": "https://wythenshaweafc.com/teams/womans/womans-first/",
-    "social_link": "https://www.instagram.com/wythenshawefcw/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/wythenshawe_women.webp"
+    },
+    "location": {
+      "city": "Greater Manchester",
+      "stadium": "Hollyhedge Park Community Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://wythenshaweafc.com/teams/womans/womans-first/",
+      "social_link": "https://www.instagram.com/wythenshawefcw/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 60,
     "sport": "Football",
     "name": "York City",
-    "location": "North Yorkshire",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-north/york_city_women.webp",
-    "stadium": "University Of York Sports Centre",
-    "website": "https://www.yorkcityfootballclub.co.uk/teams/ladies",
-    "social_link": "https://www.instagram.com/yorkcityladies/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-north/york_city_women.webp"
+    },
+    "location": {
+      "city": "North Yorkshire",
+      "stadium": "University Of York Sports Centre",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.yorkcityfootballclub.co.uk/teams/ladies",
+      "social_link": "https://www.instagram.com/yorkcityladies/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 61,
     "sport": "Football",
     "name": "Barnsley",
-    "location": "South Yorkshire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/barnsley_women.webp",
-    "stadium": "Sheffield Olympic Legacy Park Community Stadium",
-    "website": "https://www.pitchero.com/clubs/barnsleyladiesandjuniors/teams/81354",
-    "social_link": "https://www.instagram.com/barnsleywomensfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/barnsley_women.webp"
+    },
+    "location": {
+      "city": "South Yorkshire",
+      "stadium": "Sheffield Olympic Legacy Park Community Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.pitchero.com/clubs/barnsleyladiesandjuniors/teams/81354",
+      "social_link": "https://www.instagram.com/barnsleywomensfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 62,
     "sport": "Football",
     "name": "Boldmere St Michaels",
-    "location": "West Midlands",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/boldmere_st_michaels_women.webp",
-    "stadium": "Amber Arena and Community Stadium",
-    "website": "https://boldmerestmichaelsfc.co.uk/womens/",
-    "social_link": "https://www.instagram.com/boldmere_wfc/?hl=en-gb"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/boldmere_st_michaels_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "Amber Arena and Community Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://boldmerestmichaelsfc.co.uk/womens/",
+      "social_link": "https://www.instagram.com/boldmere_wfc/?hl=en-gb"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 63,
     "sport": "Football",
     "name": "Kidderminster Harriers",
-    "location": "Worcestershire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/kidderminster_harriers_women.webp",
-    "stadium": "King George V Playing Fields",
-    "website": "https://harriers.co.uk/teams/women/",
-    "social_link": "https://www.instagram.com/harrierswomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/kidderminster_harriers_women.webp"
+    },
+    "location": {
+      "city": "Worcestershire",
+      "stadium": "King George V Playing Fields",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://harriers.co.uk/teams/women/",
+      "social_link": "https://www.instagram.com/harrierswomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 64,
     "sport": "Football",
     "name": "Leafield Athletic",
-    "location": "West Midlands",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/leafield_athletic_women.webp",
-    "stadium": "Leafield Athletic Ladies FC",
-    "website": "https://www.leafieldathletic.co.uk/",
-    "social_link": "https://www.instagram.com/leafieldladies"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/leafield_athletic_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "Leafield Athletic Ladies FC",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.leafieldathletic.co.uk/",
+      "social_link": "https://www.instagram.com/leafieldladies"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 65,
     "sport": "Football",
     "name": "Lincoln United",
-    "location": "Lincolnshire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/lincoln_united_women.webp",
-    "stadium": "Sun-Hat Villas & Resorts Stadium",
-    "website": "https://www.pitchero.com/clubs/lincolnunited/teams/239264",
-    "social_link": "https://www.instagram.com/lincolnunitedwfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/lincoln_united_women.webp"
+    },
+    "location": {
+      "city": "Lincolnshire",
+      "stadium": "Sun-Hat Villas & Resorts Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.pitchero.com/clubs/lincolnunited/teams/239264",
+      "social_link": "https://www.instagram.com/lincolnunitedwfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 66,
     "sport": "Football",
     "name": "Northampton Town",
-    "location": "Northamptonshire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/northampton_town_women.webp",
-    "stadium": "PTS Academy Stadium",
-    "website": "https://www.ntfc.co.uk/teams/womens",
-    "social_link": "https://www.instagram.com/ntfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/northampton_town_women.webp"
+    },
+    "location": {
+      "city": "Northamptonshire",
+      "stadium": "PTS Academy Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.ntfc.co.uk/teams/womens",
+      "social_link": "https://www.instagram.com/ntfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 67,
     "sport": "Football",
     "name": "Notts County",
-    "location": "East Midlands",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/notts_county_women.webp",
-    "stadium": "Portland Centre",
-    "website": "https://www.nottscountywomenfc.co.uk/",
-    "social_link": "https://www.instagram.com/nottscountywomen.fc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/notts_county_women.webp"
+    },
+    "location": {
+      "city": "East Midlands",
+      "stadium": "Portland Centre",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.nottscountywomenfc.co.uk/",
+      "social_link": "https://www.instagram.com/nottscountywomen.fc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 68,
     "sport": "Football",
     "name": "Peterborough United",
-    "location": "Cambridgeshire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/peterborough_united_women.webp",
-    "stadium": "Abbey Lawn Stadium",
-    "website": "https://www.theposh.com/news?category=All&field_tags_target_id=1374",
-    "social_link": "https://www.instagram.com/theposhwomenofficial/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/peterborough_united_women.webp"
+    },
+    "location": {
+      "city": "Cambridgeshire",
+      "stadium": "Abbey Lawn Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.theposh.com/news?category=All&field_tags_target_id=1374",
+      "social_link": "https://www.instagram.com/theposhwomenofficial/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 69,
     "sport": "Football",
     "name": "Sheffield",
-    "location": "Derbyshire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/sheffield_women.webp",
-    "stadium": "The Home of Football Stadium",
-    "website": "https://sheffieldfc.com/teams/womens/",
-    "social_link": "https://www.instagram.com/sfc_women/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/sheffield_women.webp"
+    },
+    "location": {
+      "city": "Derbyshire",
+      "stadium": "The Home of Football Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://sheffieldfc.com/teams/womens/",
+      "social_link": "https://www.instagram.com/sfc_women/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 70,
     "sport": "Football",
     "name": "Stourbridge",
-    "location": "West Midlands",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/stourbridge_women.webp",
-    "stadium": "War Memorial Ground",
-    "website": "https://www.stourbridgefc.com/teams/95490",
-    "social_link": "https://www.instagram.com/stourbridge.fc.women/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/stourbridge_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "War Memorial Ground",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.stourbridgefc.com/teams/95490",
+      "social_link": "https://www.instagram.com/stourbridge.fc.women/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 71,
     "sport": "Football",
     "name": "Sutton Coldfield Town",
-    "location": "West Midlands",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/sutton_coldfield_town_women.webp",
-    "stadium": "Coles Lane",
-    "website": "https://www.sctfc.com/teams/189528",
-    "social_link": "https://www.instagram.com/sctfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/sutton_coldfield_town_women.webp"
+    },
+    "location": {
+      "city": "West Midlands",
+      "stadium": "Coles Lane",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.sctfc.com/teams/189528",
+      "social_link": "https://www.instagram.com/sctfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 72,
     "sport": "Football",
     "name": "Worcester City",
-    "location": "Worcestershire",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-midlands/worcester_city_women.webp",
-    "stadium": "Sixways Stadium",
-    "website": "https://www.wcwfc.co.uk/",
-    "social_link": "https://www.instagram.com/worcestercityfcwomen/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/worcester_city_women.webp"
+    },
+    "location": {
+      "city": "Worcestershire",
+      "stadium": "Sixways Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.wcwfc.co.uk/",
+      "social_link": "https://www.instagram.com/worcestercityfcwomen/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 73,
     "sport": "Football",
     "name": "Abingdon United",
-    "location": "Oxfordshire",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/abingdon_united_women.webp",
-    "stadium": "The Northcourt",
-    "website": "https://www.abingdonunitedfc.com/teams/189693",
-    "social_link": "https://www.instagram.com/abingdonutdwfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/abingdon_united_women.webp"
+    },
+    "location": {
+      "city": "Oxfordshire",
+      "stadium": "The Northcourt",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.abingdonunitedfc.com/teams/189693",
+      "social_link": "https://www.instagram.com/abingdonutdwfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 74,
     "sport": "Football",
     "name": "Ascot United",
-    "location": "Berkshire",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/ascot_united_women.webp",
-    "stadium": "Racecourse Ground",
-    "website": "https://ascotunited.net/team/seniors/ascot-united-women/",
-    "social_link": "https://www.instagram.com/ascotunitedwomenfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/ascot_united_women.webp"
+    },
+    "location": {
+      "city": "Berkshire",
+      "stadium": "Racecourse Ground",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://ascotunited.net/team/seniors/ascot-united-women/",
+      "social_link": "https://www.instagram.com/ascotunitedwomenfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 75,
     "sport": "Football",
     "name": "Bournemouth Sports",
-    "location": "Dorset",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/bournemouth_sports_women.webp",
-    "stadium": "Chapel Gate Football Centre",
-    "website": "https://bournemouthsportsfc.co.uk/teams/ladies-team/",
-    "social_link": "https://www.instagram.com/bmthsportswfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/bournemouth_sports_women.webp"
+    },
+    "location": {
+      "city": "Dorset",
+      "stadium": "Chapel Gate Football Centre",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://bournemouthsportsfc.co.uk/teams/ladies-team/",
+      "social_link": "https://www.instagram.com/bmthsportswfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 76,
     "sport": "Football",
     "name": "Bridgwater United",
-    "location": "Somerset",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/bridgwater_united_women.webp",
-    "stadium": "The Ethan Berry Pavillion",
-    "website": "http://bridgwaterunitedwfc.com/",
-    "social_link": "https://www.instagram.com/bridgwaterutdw/?hl=en-gb"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/bridgwater_united_women.webp"
+    },
+    "location": {
+      "city": "Somerset",
+      "stadium": "The Ethan Berry Pavillion",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "http://bridgwaterunitedwfc.com/",
+      "social_link": "https://www.instagram.com/bridgwaterutdw/?hl=en-gb"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 77,
     "sport": "Football",
     "name": "Bristol Rovers",
-    "location": "Bristol",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/bristol_rovers_women.webp",
-    "stadium": "The Memorial Stadium",
-    "website": "https://www.bristolrovers.co.uk/news?category=854&field_tags_target_id=All",
-    "social_link": "https://www.instagram.com/bristolroverswfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/bristol_rovers_women.webp"
+    },
+    "location": {
+      "city": "Bristol",
+      "stadium": "The Memorial Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.bristolrovers.co.uk/news?category=854&field_tags_target_id=All",
+      "social_link": "https://www.instagram.com/bristolroverswfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 78,
     "sport": "Football",
     "name": "Keynsham Town",
-    "location": "Somerset",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/keynsham_town_women.webp",
-    "stadium": "The AJN Stadium",
-    "website": "https://www.ktlfc.com/",
-    "social_link": "https://www.instagram.com/keynsham_town_lfc"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/keynsham_town_women.webp"
+    },
+    "location": {
+      "city": "Somerset",
+      "stadium": "The AJN Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.ktlfc.com/",
+      "social_link": "https://www.instagram.com/keynsham_town_lfc"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 79,
     "sport": "Football",
     "name": "Maidenhead United",
-    "location": "Berkshire",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/maidenhead_united_women.webp",
-    "stadium": "York Road",
-    "website": "https://www.maidenheadunitedfc.org/teams/mufc-women/",
-    "social_link": "https://www.instagram.com/maidenheadunitedwomenfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/maidenhead_united_women.webp"
+    },
+    "location": {
+      "city": "Berkshire",
+      "stadium": "York Road",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.maidenheadunitedfc.org/teams/mufc-women/",
+      "social_link": "https://www.instagram.com/maidenheadunitedwomenfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 80,
     "sport": "Football",
     "name": "Marine Academy Plymouth",
-    "location": "Devon",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/marine_academy_plymouth_women.webp",
-    "stadium": "Erme Valley",
-    "website": "",
-    "social_link": "https://www.instagram.com/maplfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/marine_academy_plymouth_women.webp"
+    },
+    "location": {
+      "city": "Devon",
+      "stadium": "Erme Valley",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "",
+      "social_link": "https://www.instagram.com/maplfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 81,
     "sport": "Football",
     "name": "Moneyfields",
-    "location": "Hampshire",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/moneyfields_women.webp",
-    "stadium": "John Jenkins Stadium",
-    "website": "https://moneyfieldsfootballclub.co.uk/matchday/matchday-guide/",
-    "social_link": "https://www.instagram.com/moneyfieldsfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/moneyfields_women.webp"
+    },
+    "location": {
+      "city": "Hampshire",
+      "stadium": "John Jenkins Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://moneyfieldsfootballclub.co.uk/matchday/matchday-guide/",
+      "social_link": "https://www.instagram.com/moneyfieldsfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 82,
     "sport": "Football",
     "name": "Portishead Town",
-    "location": "Somerset",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/portishead_town_women.webp",
-    "stadium": "Portishead Town FC",
-    "website": "https://portisheadtownfc.com/ladies-football/",
-    "social_link": "https://www.instagram.com/portisheadtownlfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/portishead_town_women.webp"
+    },
+    "location": {
+      "city": "Somerset",
+      "stadium": "Portishead Town FC",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://portisheadtownfc.com/ladies-football/",
+      "social_link": "https://www.instagram.com/portisheadtownlfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 83,
     "sport": "Football",
     "name": "Swindon Town",
-    "location": "Wiltshire",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/swindon_town_women.webp",
-    "stadium": "Nigel Eady County Ground",
-    "website": "https://www.swindontownfc.co.uk/teams/womens-first-team",
-    "social_link": "https://www.instagram.com/swindontownwfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/swindon_town_women.webp"
+    },
+    "location": {
+      "city": "Wiltshire",
+      "stadium": "Nigel Eady County Ground",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.swindontownfc.co.uk/teams/womens-first-team",
+      "social_link": "https://www.instagram.com/swindontownwfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 84,
     "sport": "Football",
     "name": "Worthing",
-    "location": "West Sussex",
     "league": "FA Women's National League - Division One South West",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-west/worthing_women.webp",
-    "stadium": "Sussex Transport Community Stadium",
-    "website": "https://worthingfc.com/teams/women/",
-    "social_link": "https://www.instagram.com/worthingfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-west/worthing_women.webp"
+    },
+    "location": {
+      "city": "West Sussex",
+      "stadium": "Sussex Transport Community Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://worthingfc.com/teams/women/",
+      "social_link": "https://www.instagram.com/worthingfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 85,
     "sport": "Football",
     "name": "Actonians",
-    "location": "Greater London",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/actonians_women.webp",
-    "stadium": "Actonians Sports Club",
-    "website": "https://www.actonianslfc.com/",
-    "social_link": "https://www.instagram.com/actonianswfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/actonians_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "Actonians Sports Club",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.actonianslfc.com/",
+      "social_link": "https://www.instagram.com/actonianswfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 86,
     "sport": "Football",
     "name": "AFC Sudbury",
-    "location": "Suffolk",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/afc_sudbury_women.webp",
-    "stadium": "Brundon Lane",
-    "website": "https://www.afcsudbury.co.uk/teams/117007",
-    "social_link": "https://www.instagram.com/afcsudbury_official/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/afc_sudbury_women.webp"
+    },
+    "location": {
+      "city": "Suffolk",
+      "stadium": "Brundon Lane",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.afcsudbury.co.uk/teams/117007",
+      "social_link": "https://www.instagram.com/afcsudbury_official/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 87,
     "sport": "Football",
     "name": "Cambridge United",
-    "location": "Cambridgeshire",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/cambridge_united_women.webp",
-    "stadium": "Rowley Park",
-    "website": "https://www.cambridgeunited.com/fixture/list/844",
-    "social_link": "https://www.instagram.com/cambridgeutdwfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/cambridge_united_women.webp"
+    },
+    "location": {
+      "city": "Cambridgeshire",
+      "stadium": "Rowley Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.cambridgeunited.com/fixture/list/844",
+      "social_link": "https://www.instagram.com/cambridgeutdwfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 88,
     "sport": "Football",
     "name": "Chatham Town",
-    "location": "Kent",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/chatham_town_women.webp",
-    "stadium": "Bauvill Stadium",
-    "website": "https://www.chathamtownfc.com/teams/womens/table/",
-    "social_link": "https://www.instagram.com/chathamtownwfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/chatham_town_women.webp"
+    },
+    "location": {
+      "city": "Kent",
+      "stadium": "Bauvill Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.chathamtownfc.com/teams/womens/table/",
+      "social_link": "https://www.instagram.com/chathamtownwfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 89,
     "sport": "Football",
     "name": "Chesham United",
-    "location": "Buckinghamshire",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/chesham_united_women.webp",
-    "stadium": "The Meadow",
-    "website": "https://cheshamunited.co.uk/womens/",
-    "social_link": "https://www.instagram.com/cheshamunitedfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/chesham_united_women.webp"
+    },
+    "location": {
+      "city": "Buckinghamshire",
+      "stadium": "The Meadow",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://cheshamunited.co.uk/womens/",
+      "social_link": "https://www.instagram.com/cheshamunitedfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 90,
     "sport": "Football",
     "name": "Dulwich Hamlet",
-    "location": "Greater London",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/dulwich_hamlet_women.webp",
-    "stadium": "Champion Hill Stadium",
-    "website": "https://dulwichhamletfc.co.uk/fixtures/womens-fixtures-and-tickets",
-    "social_link": "https://www.instagram.com/dhfc_w/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/dulwich_hamlet_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "Champion Hill Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://dulwichhamletfc.co.uk/fixtures/womens-fixtures-and-tickets",
+      "social_link": "https://www.instagram.com/dhfc_w/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 91,
     "sport": "Football",
     "name": "Fulham",
-    "location": "Greater London",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/fulham_women.webp",
-    "stadium": "Motspur Park",
-    "website": "https://www.fulhamfc.com/women/",
-    "social_link": "https://www.instagram.com/fulhamfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/fulham_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "Motspur Park",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.fulhamfc.com/women/",
+      "social_link": "https://www.instagram.com/fulhamfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 92,
     "sport": "Football",
     "name": "London Bees",
-    "location": "Greater London",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/london_bees_women.webp",
-    "stadium": "The Hive Stadium",
-    "website": "https://londonbeesfc.com/",
-    "social_link": "https://www.instagram.com/london_bees/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/london_bees_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "The Hive Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://londonbeesfc.com/",
+      "social_link": "https://www.instagram.com/london_bees/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 93,
     "sport": "Football",
     "name": "Luton Town",
-    "location": "Bedfordshire",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/luton_town_women.webp",
-    "stadium": "Barton Rovers Football Club",
-    "website": "https://www.lutontownladiesfc.co.uk/",
-    "social_link": "https://www.instagram.com/ltlfc_official"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/luton_town_women.webp"
+    },
+    "location": {
+      "city": "Bedfordshire",
+      "stadium": "Barton Rovers Football Club",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.lutontownladiesfc.co.uk/",
+      "social_link": "https://www.instagram.com/ltlfc_official"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 94,
     "sport": "Football",
     "name": "MK Dons",
-    "location": "Buckinghamshire",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/mk_dons_women.webp",
-    "stadium": "Stadium MK",
-    "website": "https://www.mkdons.com/teams/womens",
-    "social_link": "https://www.instagram.com/mkdonsfcwomen/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/mk_dons_women.webp"
+    },
+    "location": {
+      "city": "Buckinghamshire",
+      "stadium": "Stadium MK",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.mkdons.com/teams/womens",
+      "social_link": "https://www.instagram.com/mkdonsfcwomen/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 95,
     "sport": "Football",
     "name": "Norwich City",
-    "location": "Norfolk",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/norwich_city_women.webp",
-    "stadium": "The Nest",
-    "website": "https://www.canaries.co.uk/womens-team",
-    "social_link": "https://www.instagram.com/norwichcitywomenfc/"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/norwich_city_women.webp"
+    },
+    "location": {
+      "city": "Norfolk",
+      "stadium": "The Nest",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.canaries.co.uk/womens-team",
+      "social_link": "https://www.instagram.com/norwichcitywomenfc/"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   },
   {
     "id": 96,
     "sport": "Football",
     "name": "Queens Park Rangers",
-    "location": "Greater London",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
-    "logo": "images/football/fa-womens-national-league-division-one-south-east/queens_park_rangers_women.webp",
-    "stadium": "SkyEx Community Stadium",
-    "website": "https://www.qpr.co.uk/category/women",
-    "social_link": "https://www.instagram.com/qprwomenfc/?hl=en"
+    "branding": {
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/queens_park_rangers_women.webp"
+    },
+    "location": {
+      "city": "Greater London",
+      "stadium": "SkyEx Community Stadium",
+      "postcode": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "contact": {
+      "website": "https://www.qpr.co.uk/category/women",
+      "social_link": "https://www.instagram.com/qprwomenfc/?hl=en"
+    },
+    "attributes": {
+      "beginner_friendly": "Unknown",
+      "youth_teams": "Unknown",
+      "join_method": "Unknown"
+    }
   }
 ]

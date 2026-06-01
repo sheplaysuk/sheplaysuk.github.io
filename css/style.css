@@ -12,6 +12,12 @@
     --senior: #ff9ac6;
     --under18: #ffc691;
     --under16: #adfede;
+    --beginner-y: green;
+    --beginner-n: red;
+    --beginner-x: grey;
+    --youth-y: green;
+    --youth-n: red;
+    --youth-x: grey;
 }
 
 
@@ -208,18 +214,85 @@ main {
     background: var(--senior);
     padding: 5px;
     border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .age-badge[data-age-group="U18"] {
     background: var(--under18);
     padding: 5px;
     border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .age-badge[data-age-group="U16"] {
     background: var(--under16);
     padding: 5px;
     border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.beginner-badge[data-beginner-friendly="Yes"] {
+    background: var(--beginner-y);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.beginner-badge[data-beginner-friendly="No"] {
+    background: var(--beginner-n);
+    padding: 5px;
+    border-radius: 5px;    
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.beginner-badge[data-beginner-friendly="Unknown"] {
+    background: var(--beginner-x);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.youth-badge[data-youth="Yes"] {
+    background: var(--beginner-y);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.youth-badge[data-youth="No"] {
+    background: var(--beginner-n);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+}
+
+.youth-badge[data-youth="Unknown"] {
+    background: var(--beginner-x);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.join-method[data-join-method="Unknown"] {
+    background: var(--beginner-x);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .club-logo {

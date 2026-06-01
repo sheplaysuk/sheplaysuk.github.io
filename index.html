@@ -8,6 +8,9 @@
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="images/she-plays-primary-no-text.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 </head>
 <body>
 <div class="announcement">
@@ -51,11 +54,12 @@
     <form id="searchForm" role="search">
         <input type="text" id="search" class="searchLabel" placeholder="Search clubs by name or location..."
                aria-label="Search clubs by name or location">
-        <button id="clubSearchBtn" type="button">
+        <button id="clubSearchBtn" type="submit">
             Search
         </button>
     </form>
 </section>
+<div id="mapContainer" style="height: 400px;"></div><br/>
 <!-- This section of code covers the main part of the site, the Sidebar and Club Lists -->
 <div class="content-container">
     <aside class="sidebar" aria-label="Filters">
@@ -72,9 +76,18 @@
             Age Group
         </label>
         <select id="ageGroupFilter"></select>
+        <label for="beginnerFriendlyFilter">
+            Beginner Friendly
+        </label>
+        <select id="beginnerFriendlyFilter"></select>
+        <label for="youthFilter">
+            Youth Teams
+        </label>
+        <select id="youthFilter"></select>
         <button id="filterSearchBtn" type="button">
             Apply Filters
         </button>
+        
     </aside>
     <main>
         <section>
