@@ -12,12 +12,10 @@
     --senior: #ff9ac6;
     --under18: #ffc691;
     --under16: #adfede;
-    --beginner-y: green;
-    --beginner-n: red;
-    --beginner-x: grey;
-    --youth-y: green;
-    --youth-n: red;
-    --youth-x: grey;
+    --y: green;
+    --n: red;
+    --x: grey;
+    --academy: #bd31f5;
 }
 
 
@@ -235,7 +233,7 @@ main {
 }
 
 .beginner-badge[data-beginner-friendly="Yes"] {
-    background: var(--beginner-y);
+    background: var(--y);
     padding: 5px;
     border-radius: 5px;
     margin-left: 5px;
@@ -243,7 +241,7 @@ main {
 }
 
 .beginner-badge[data-beginner-friendly="No"] {
-    background: var(--beginner-n);
+    background: var(--n);
     padding: 5px;
     border-radius: 5px;    
     color: white;
@@ -252,7 +250,7 @@ main {
 }
 
 .beginner-badge[data-beginner-friendly="Unknown"] {
-    background: var(--beginner-x);
+    background: var(--x);
     padding: 5px;
     border-radius: 5px;
     color: white;
@@ -261,7 +259,7 @@ main {
 }
 
 .youth-badge[data-youth="Yes"] {
-    background: var(--beginner-y);
+    background: var(--y);
     padding: 5px;
     border-radius: 5px;
     margin-left: 5px;
@@ -269,7 +267,7 @@ main {
 }
 
 .youth-badge[data-youth="No"] {
-    background: var(--beginner-n);
+    background: var(--n);
     padding: 5px;
     border-radius: 5px;
     margin-left: 5px;
@@ -278,7 +276,16 @@ main {
 }
 
 .youth-badge[data-youth="Unknown"] {
-    background: var(--beginner-x);
+    background: var(--x);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.youth-badge[data-youth="Academy"] {
+    background: var(--academy);
     padding: 5px;
     border-radius: 5px;
     color: white;
@@ -287,7 +294,16 @@ main {
 }
 
 .join-method[data-join-method="Unknown"] {
-    background: var(--beginner-x);
+    background: var(--x);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.join-method[data-join-method="Academy"] {
+    background: var(--academy);
     padding: 5px;
     border-radius: 5px;
     color: white;
