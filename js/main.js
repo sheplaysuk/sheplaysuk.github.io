@@ -113,13 +113,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function populateFilters(clubs) {
     const leagues = [...new Set(clubs.map(c => c.league).filter(Boolean))];
-    const locations = [...new Set(clubs.map(c => c.location?.city || c.location).filter(Boolean))];
+    const locations = [...new Set(clubs.map(c => c.location?.county || c.location).filter(Boolean))];
     const ageGroups = [...new Set(clubs.map(c => c.age_group).filter(Boolean))];
     const beginner_friendly = [...new Set(clubs.map(c => c.attributes?.beginner_friendly || c.beginner_friendly).filter(Boolean))];
     const youth_teams = [...new Set(clubs.map(c => c.attributes?.youth_teams || c.beginner_friendly).filter(Boolean))];
 
     fillSelect(leagueFilter, leagues, 'All Leagues');
-    fillSelect(locationFilter, locations, 'All Locations');
+    fillSelect(locationFilter, locations, 'All Counties');
     fillSelect(ageGroupFilter, ageGroups, 'All Age Groups');
     fillSelect(beginnerFriendlyFilter, beginner_friendly, "All Options");
     fillSelect(youthFilter, youth_teams, "All Options");
@@ -152,12 +152,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const matchesSearch =
         !searchValue ||
         club.name.toLowerCase().includes(searchValue) ||
-        (club.location?.city || '').toLowerCase().includes(searchValue) ||
+        (club.location?.county || '').toLowerCase().includes(searchValue) ||
         (club.attributes?.beginner_friendly || '').toLowerCase().includes(searchValue) ||
         (club.attributes?.youth_teams || '').toLowerCase().includes(searchValue);
 
       const matchesLeague = !league || club.league === league;
-      const matchesLocation = !location || (club.location?.city || '').toLowerCase().includes(location.toLowerCase());
+      const matchesLocation = !location || (club.location?.county || '').toLowerCase().includes(location.toLowerCase());
       const matchesAgeGroup = !ageGroup || club.age_group === ageGroup;
       const matchesBeginnerFriendly = !beginnerFriendly || (club.attributes?.beginner_friendly || '').toLowerCase() === beginnerFriendly.toLowerCase();
       const matchesYouth = !youth || (club.attributes?.youth_teams || '').toLowerCase() === youth.toLowerCase();
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <li 
     data-id="${club.id}"
     data-name="${club.name || ''}"
-    data-location="${club.location?.city || club.location || ''}"
+    data-location="${club.location?.county || club.location || ''}"
     data-league="${club.league || ''}"
     data-age-group="${club.age_group || ''}"
     data-logo="${club.branding?.logo || club.logo || ''}"
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div style="flex:1;">
         <strong>${club.name}</strong><br/>
         <em>${club.league}</em><br/>
-        <span>${club.location?.city}</span><br/>
+        <span>${club.location?.county}</span><br/>
         <div class="club-badges">
           <span class="age-badge" data-age-group="${club.age_group}">${club.age_group}</span>
         </div>
@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ${branding?.logo ? `<img src="${branding.logo}" alt="${name} logo" class="panel-logo">` : ''}
 
     <p><strong>League:</strong> ${league}</p>
-    <p><strong>Location:</strong> ${location?.city || 'Not available'}</p>
+    <p><strong>Location:</strong> ${location?.county || 'Not available'}</p>
     <p><strong>Stadium:</strong> ${location?.stadium || 'Not available'}</p>
 
     <p><strong>Website:</strong>

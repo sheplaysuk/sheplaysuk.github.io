@@ -236,6 +236,7 @@ main {
     background: var(--y);
     padding: 5px;
     border-radius: 5px;
+    color: white;
     margin-left: 5px;
     text-align: center;
 }
@@ -262,6 +263,7 @@ main {
     background: var(--y);
     padding: 5px;
     border-radius: 5px;
+    color: white;
     margin-left: 5px;
     text-align: center;
 }
