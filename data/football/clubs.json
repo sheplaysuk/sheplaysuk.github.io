@@ -132,8 +132,8 @@
   {
     "id": 6,
     "sport": "Football",
-    "name": "Leicester county",
-    "league": "Women's Super League",
+    "name": "Leicester City",
+    "league": "Women's Super League 2",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/womens-super-league-1/leicester_women.webp"
@@ -184,11 +184,11 @@
   {
     "id": 8,
     "sport": "Football",
-    "name": "London county Lionesses",
+    "name": "London City Lionesses",
     "league": "Women's Super League",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/womens-super-league-1/london_county_lionesses.webp"
+      "logo": "images/football/womens-super-league-1/london_city_lionesses.webp"
     },
     "location": {
       "county": "Greater London",
@@ -210,11 +210,11 @@
   {
     "id": 9,
     "sport": "Football",
-    "name": "Manchester county",
+    "name": "Manchester City",
     "league": "Women's Super League",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/womens-super-league-1/man_county_women.webp"
+      "logo": "images/football/womens-super-league-1/man_city_women.webp"
     },
     "location": {
       "county": "Greater Manchester",
@@ -224,8 +224,8 @@
       "longitude": -2.19278
     },
     "contact": {
-      "website": "https://www.mancounty.com/manchester-county-women",
-      "social_link": "https://www.instagram.com/mancountywomen"
+      "website": "https://www.mancity.com/manchester-city-women",
+      "social_link": "https://www.instagram.com/mancitywomen"
     },
     "attributes": {
       "beginner_friendly": "No",
@@ -315,10 +315,10 @@
     "id": 13,
     "sport": "Football",
     "name": "Birmingham City",
-    "league": "Women's Super League 2",
+    "league": "Women's Super League",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/womens-super-league-2/birmingham_county_women.webp"
+      "logo": "images/football/womens-super-league-2/birmingham_city_women.webp"
     },
     "location": {
       "county": "West Midlands",
@@ -340,11 +340,11 @@
   {
     "id": 14,
     "sport": "Football",
-    "name": "Bristol county",
+    "name": "Bristol City",
     "league": "Women's Super League 2",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/womens-super-league-2/bristol_county_women.webp"
+      "logo": "images/football/womens-super-league-2/bristol_city_women.webp"
     },
     "location": {
       "county": "Bristol",
@@ -354,8 +354,8 @@
       "longitude": -2.6203341
     },
     "contact": {
-      "website": "https://www.bcfc.co.uk/match-centre/teams/bristol-county-women/fixtures/",
-      "social_link": "https://www.instagram.com/bristolcountywomensfc"
+      "website": "https://www.bcfc.co.uk/match-centre/teams/bristol-city-women/fixtures/",
+      "social_link": "https://www.instagram.com/bristolcitywomensfc"
     },
     "attributes": {
       "beginner_friendly": "No",
@@ -367,7 +367,7 @@
     "id": 15,
     "sport": "Football",
     "name": "Charlton Athletic",
-    "league": "Women's Super League 2",
+    "league": "Women's Super League",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/womens-super-league-2/charlton_women.webp"
@@ -393,7 +393,7 @@
     "id": 16,
     "sport": "Football",
     "name": "Crystal Palace",
-    "league": "Women's Super League 2",
+    "league": "Women's Super League",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/womens-super-league-2/crystal_palace_women.webp"
@@ -523,7 +523,7 @@
     "id": 21,
     "sport": "Football",
     "name": "Portsmouth",
-    "league": "Women's Super League 2",
+    "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/womens-super-league-2/portsmouth_women.webp"
@@ -627,7 +627,7 @@
     "id": 25,
     "sport": "Football",
     "name": "Burnley",
-    "league": "FA Women's National League - Northern Premier Division",
+    "league": "Women's Super League 2",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/fa-womens-national-league-northern-premier-division/burnley_women.webp"
@@ -660,19 +660,19 @@
     },
     "location": {
       "county": "Derbyshire",
-      "stadium": "Mickleover Football Club",
-      "postcode": null,
-      "latitude": null,
-      "longitude": null
+      "stadium": "Don Amott Arena",
+      "postcode": "DE3 9FB",
+      "latitude": 52.923772,
+      "longitude": -1.540539
     },
     "contact": {
       "website": "https://www.dcfc.co.uk/fixtures?team=298",
       "social_link": "https://www.instagram.com/derbycountyfcwomen"
     },
     "attributes": {
-      "beginner_friendly": "Unknown",
-      "youth_teams": "Unknown",
-      "join_method": "Unknown"
+      "beginner_friendly": "No",
+      "youth_teams": "Yes",
+      "join_method": "Junior Pathway"
     }
   },
   {
@@ -687,28 +687,28 @@
     "location": {
       "county": "West Yorkshire",
       "stadium": "Horsfall Community Stadium",
-      "postcode": null,
-      "latitude": null,
-      "longitude": null
+      "postcode": "BD3 8QX",
+      "latitude": 53.799135,
+      "longitude": -1.727649
     },
     "contact": {
       "website": "https://halifaxfcwomen.co.uk/",
       "social_link": "https://www.instagram.com/halifaxfcwomen"
     },
     "attributes": {
-      "beginner_friendly": "Unknown",
+      "beginner_friendly": "No",
       "youth_teams": "Unknown",
-      "join_method": "Unknown"
+      "join_method": "Academy"
     }
   },
   {
     "id": 28,
     "sport": "Football",
-    "name": "Hull county",
+    "name": "Hull City",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/fa-womens-national-league-northern-premier-division/hull_county_women.webp"
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/hull_city_women.webp"
     },
     "location": {
       "county": "East Yorkshire",
@@ -718,8 +718,8 @@
       "longitude": null
     },
     "contact": {
-      "website": "https://hullcountyladies.com/",
-      "social_link": "https://www.instagram.com/hullcountyladiesfc"
+      "website": "https://hullcityladies.com/",
+      "social_link": "https://www.instagram.com/hullcityladiesfc"
     },
     "attributes": {
       "beginner_friendly": "Unknown",
@@ -860,11 +860,11 @@
   {
     "id": 34,
     "sport": "Football",
-    "name": "Stoke county",
+    "name": "Stoke City",
     "league": "FA Women's National League - Northern Premier Division",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/fa-womens-national-league-northern-premier-division/stoke_county_women.webp"
+      "logo": "images/football/fa-womens-national-league-northern-premier-division/stoke_city_women.webp"
     },
     "location": {
       "county": "Staffordshire",
@@ -874,7 +874,7 @@
       "longitude": null
     },
     "contact": {
-      "website": "https://www.stokecountyfc.com/club/women/",
+      "website": "https://www.stokecityfc.com/club/women/",
       "social_link": "https://www.instagram.com/scfc_women"
     },
     "attributes": {
@@ -913,7 +913,7 @@
     "id": 36,
     "sport": "Football",
     "name": "Wolverhampton Wanderers",
-    "league": "FA Women's National League - Northern Premier Division",
+    "league": "Women's Super League 2",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/fa-womens-national-league-northern-premier-division/wolverhampton_wanderers_women.webp"
@@ -1042,11 +1042,11 @@
   {
     "id": 41,
     "sport": "Football",
-    "name": "Exeter county",
+    "name": "Exeter City",
     "league": "FA Women's National League - Southern Premier Division",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/fa-womens-national-league-southern-premier-division/exeter_county_women.webp"
+      "logo": "images/football/fa-womens-national-league-southern-premier-division/exeter_city_women.webp"
     },
     "location": {
       "county": "Devon",
@@ -1057,7 +1057,7 @@
     },
     "contact": {
       "website": "https://www.exetercountyfc.co.uk/fixture/list/1035",
-      "social_link": "https://www.instagram.com/exetercountywomensfc/"
+      "social_link": "https://www.instagram.com/exetercitywomensfc/"
     },
     "attributes": {
       "beginner_friendly": "Unknown",
@@ -1225,7 +1225,7 @@
     "id": 48,
     "sport": "Football",
     "name": "Watford",
-    "league": "FA Women's National League - Southern Premier Division",
+    "league": "Women's Super League 2",
     "age_group": "Senior",
     "branding": {
       "logo": "images/football/fa-womens-national-league-southern-premier-division/watford_women.webp"
@@ -1536,11 +1536,11 @@
   {
     "id": 60,
     "sport": "Football",
-    "name": "York county",
+    "name": "York City",
     "league": "FA Women's National League - Division One North",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/fa-womens-national-league-division-one-north/york_county_women.webp"
+      "logo": "images/football/fa-womens-national-league-division-one-north/york_city_women.webp"
     },
     "location": {
       "county": "North Yorkshire",
@@ -1550,8 +1550,8 @@
       "longitude": null
     },
     "contact": {
-      "website": "https://www.yorkcountyfootballclub.co.uk/teams/ladies",
-      "social_link": "https://www.instagram.com/yorkcountyladies/"
+      "website": "https://www.yorkcityfootballclub.co.uk/teams/ladies",
+      "social_link": "https://www.instagram.com/yorkcityladies/"
     },
     "attributes": {
       "beginner_friendly": "Unknown",
@@ -1848,11 +1848,11 @@
   {
     "id": 72,
     "sport": "Football",
-    "name": "Worcester county",
+    "name": "Worcester City",
     "league": "FA Women's National League - Division One Midlands",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/fa-womens-national-league-division-one-midlands/worcester_county_women.webp"
+      "logo": "images/football/fa-womens-national-league-division-one-midlands/worcester_city_women.webp"
     },
     "location": {
       "county": "Worcestershire",
@@ -1863,7 +1863,7 @@
     },
     "contact": {
       "website": "https://www.wcwfc.co.uk/",
-      "social_link": "https://www.instagram.com/worcestercountyfcwomen/?hl=en"
+      "social_link": "https://www.instagram.com/worcestercityfcwomen/?hl=en"
     },
     "attributes": {
       "beginner_friendly": "Unknown",
@@ -2446,11 +2446,11 @@
   {
     "id": 95,
     "sport": "Football",
-    "name": "Norwich county",
+    "name": "Norwich City",
     "league": "FA Women's National League - Division One South East",
     "age_group": "Senior",
     "branding": {
-      "logo": "images/football/fa-womens-national-league-division-one-south-east/norwich_county_women.webp"
+      "logo": "images/football/fa-womens-national-league-division-one-south-east/norwich_city_women.webp"
     },
     "location": {
       "county": "Norfolk",
@@ -2461,7 +2461,7 @@
     },
     "contact": {
       "website": "https://www.canaries.co.uk/womens-team",
-      "social_link": "https://www.instagram.com/norwichcountywomenfc/"
+      "social_link": "https://www.instagram.com/norwichcitywomenfc/"
     },
     "attributes": {
       "beginner_friendly": "Unknown",
