@@ -148,6 +148,10 @@ button {
     margin: 5px;
 }
 
+#mapContainer {
+  height: 500px;
+}
+
 #filterSearchBtn {
     margin-top: 15px;
 }

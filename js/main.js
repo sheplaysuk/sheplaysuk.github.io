@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return;
 
     if (!map) {
+      // 1. Create the map FIRST
       map = L.map('mapContainer').setView([54.5, -3], 6);
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -38,8 +39,27 @@ document.addEventListener('DOMContentLoaded', () => {
       }).addTo(map);
 
       markerLayer = L.layerGroup().addTo(map);
+
+      // 2. THEN apply bounds
+      const southWest = L.latLng(48.5, -12);
+      const northEast = L.latLng(61, 4);
+      const bounds = L.latLngBounds(southWest, northEast);
+
+      map.setMaxBounds(bounds);
+      map.setMinZoom(5);
+
+      map.on('drag', function () {
+        map.panInsideBounds(bounds, { animate: false });
+      });
+
+      L.imageOverlay('assets/uk-fade-mask.png', [[48, -12], [62, 4]], {
+        opacity: 1,
+        interactive: false
+      }).addTo(map);
+
     }
   }
+
 
   function updateMapMarkers(clubs) {
     if (!map || !markerLayer) return;
